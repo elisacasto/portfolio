@@ -1,0 +1,55 @@
+.menu{
+    justify-content: center;
+    display: flex;
+    font-family: PlayfairDisplay, serif;
+    font-size: 1rem;
+    padding: 1.5rem 0rem 0 1.25rem;
+}
+@media only screen and (min-width: 768px){
+    .menu{
+    justify-content: flex-end;
+    margin-right: 3.125rem;
+    }
+}
+@media only screen and (min-width: 960px){
+    .menu{
+        margin-right: 6.875rem;
+    }
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.uno, .dos, .tres{
+    margin-right:3rem;
+}
+a{
+    font-family: Playfair Display, serif;
+    color: $c-blu;
+    font-size: 1rem;
+    display: flex;
+    text-decoration: none;
+    
+}
+li{
+    display: inline-block;
+}
+.logoheader{
+    margin: auto;
+    margin-top: 2.3rem;
+    width: 9.8rem;
+    height: 2.4rem;
+}
+@media only screen and (min-width: 960px){
+    .logoheader{
+        margin-top:-1.6rem;
+    }
+}
+ul li:hover a {
+    font-weight: bold;
+}
+.active{
+    font-weight: bold;
+    margin-right:3rem;
+}

@@ -1,0 +1,29 @@
+.cajafooter{
+    width: 100%;
+    background: $c-nude;
+    margin-top: 6rem;
+}
+.footercontainer{
+    margin: 0 auto;
+    
+}
+.textofooter{
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+}
+.redessociales{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;   
+}
+@media only screen and (min-width: 768px){
+    .redessociales{
+        padding: 1rem 10rem 2rem;
+    }
+}
+@media only screen and (min-width: 960px){
+    .redessociales{
+        padding: 1rem 22rem 2rem;
+    }
+}
