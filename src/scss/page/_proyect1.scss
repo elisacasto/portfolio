@@ -1,0 +1,57 @@
+.containerproyecto{
+    margin: 0 auto;
+}
+.projects{
+    margin-top: 3.875rem;
+}
+@media screen and (min-width: $MQ-L){
+    .projects{ 
+        margin-top: 7rem;
+    }
+}
+.fichaproyecto{
+    background: white;
+    height: 8rem;
+    width: 20rem;
+    box-shadow:0 7px 20px rgb(99, 98, 98);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    
+}
+@media screen and (min-width: $MQ-M){
+    .fichaproyecto{
+        width: 29rem;
+        height: 10.5rem;
+    }
+}
+@media screen and (min-width: $MQ-L){
+    .fichaproyecto{ 
+        width: 33.75rem;
+        height: 12rem;
+        margin-top: 0;
+    }
+}
+.description{
+    margin: 0 auto;
+   width: 20rem;
+}
+@media screen and (min-width: $MQ-M){
+    .description{
+            width: 35.25rem;
+            margin-left: 6.5rem;
+            margin-top: 4.4rem;
+            margin-bottom: 4.4rem;
+    }
+}
+@media screen and (min-width: $MQ-L){
+    .description{ 
+        max-width: 51.6rem;
+        margin-left: 20.125rem;
+    }
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}

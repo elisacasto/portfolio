@@ -1,0 +1,28 @@
+{
+  "name": "frontend-dev-env",
+  "version": "1.0.0",
+  "description": "Frontend development environment based on ParcelJS",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo 'Congratulations!! \nYou just run your first NPM script 👏 👏 👍\nNow try running: npm start \n '",
+    "start": "parcel src/index.html watch -p 8888",
+    "deploy": "npm run build && gh-pages -d dist",
+    "build": "parcel build src/index.html --public-url ./ --out-dir dist"
+  },
+  "keywords": [
+    "npm",
+    "parceljs",
+    "sass",
+    "frontend",
+    "BAU"
+  ],
+  "author": "Elisa Casto",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.6.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "gh-pages": "^1.1.0"
+  }
+}
