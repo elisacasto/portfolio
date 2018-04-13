@@ -13,6 +13,7 @@
 }
 @media only screen and (min-width: 960px){
     .menu{
+        margin-top: -3.5rem;
         margin-right: 6.875rem;
     }
 }
@@ -37,13 +38,13 @@ li{
 }
 .logoheader{
     margin: auto;
-    margin-top: 2.3rem;
+    margin-top: 1.3rem;
     width: 9.8rem;
     height: 2.4rem;
 }
 @media only screen and (min-width: 960px){
     .logoheader{
-        margin-top:-1.6rem;
+        margin-top:2rem;
     }
 }
 ul li:hover a {
