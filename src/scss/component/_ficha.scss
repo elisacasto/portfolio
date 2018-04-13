@@ -1,11 +1,18 @@
+
 .containerproject{
     margin-bottom:5rem; 
+}
+@media screen and (min-width: $MQ-L){
+.cajaproyecto{
+    align-items: center;
+    }
 }
 @media screen and (min-width: $MQ-M){
     .cajaproyecto{
         display:flex;
         justify-content: center;
         height: 381px;
+        margin-bottom: 2rem;
     }
 }
 .imgproyecto{

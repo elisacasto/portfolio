@@ -1,6 +1,10 @@
-@mixin subtitulo {
-    font-family: PlayfairDisplay, serif;
-    font-weight: bold;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+@mixin subrallado {
+    background-color: $c-blu;
+    border: none;
+    height: 0.12rem;
+    width: 19.5rem;
+    margin-left: 0;
+    margin-top: -1.3rem;
+    margin-bottom: 2rem;
 }
+    

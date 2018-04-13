@@ -6,23 +6,7 @@
     margin: 0rem;
     padding: 0rem;
 }
-.subtitulo {
-    font-family: PlayfairDisplay, serif;
-    font-weight: bold;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-}
-@media only screen and (min-width: 768px){
-    .subtitle{
-        font-size: 1.5rem;
-    }
-}
-@media only screen and (min-width: 960px){
-    .subtitle{
-        font-size: 1.75rem;
-        line-height: 2.625rem;
-    }
-}
+
 @media only screen and (min-width: $MQ-M){
     .minombre{
         font-size: 3rem;
@@ -53,7 +37,7 @@
 }
 @media only screen and (min-width: $MQ-M){
     .sector{
-        margin-left:3.8rem;
+        margin-left:4.5rem;
     }
 }
 .place{
@@ -63,18 +47,19 @@
     margin-top: 0rem;   
 }
 .fecha{
-    margin-top: -4.5rem;
+    margin-top: -4rem;
      
 }
 .v{
     background: $c-blu;
     width: 2px;
     height: 2.6rem;
-    margin-top:-4.25rem;
+    margin-top:-3.9rem;
     margin-left:4rem;
 }
 @media only screen and (min-width: $MQ-M){
     .v{
+        margin-top:-4.2rem;
         margin-left:6.5rem;
     }
 }
