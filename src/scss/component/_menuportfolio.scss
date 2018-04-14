@@ -17,12 +17,18 @@
         margin-right: 6.875rem;
     }
 }
+@media only screen and (min-width: 960px){
+    .index{
+        margin-top: 0.5rem;
+        margin-right: 6.875rem;
+    }
+}
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.uno, .dos, .tres{
+.menuabout, .menuworks, .menucontact{
     margin-right:3rem;
 }
 a{

@@ -7,7 +7,7 @@
     align-items: center;
     }
 }
-@media screen and (min-width: $MQ-M){
+@media screen and (min-width: $MQ-L){
     .cajaproyecto{
         display:flex;
         justify-content: center;
@@ -16,6 +16,7 @@
     }
 }
 .imgproyecto{
+    display: flex;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -23,7 +24,6 @@
 }
 @media screen and (min-width: $MQ-M){
     .imgproyecto{
-        margin: 0 auto;
         width: 568px;
     }
 }
@@ -75,7 +75,7 @@
     font-size: 14px;
     color: $c-nude;
     margin:auto;
-    margin-top: -2.5rem;
+    margin-top: -2.2rem;
 }
 @media screen and (min-width: $MQ-M){
     .textboton{

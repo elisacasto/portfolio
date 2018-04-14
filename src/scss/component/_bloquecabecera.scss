@@ -17,8 +17,19 @@
     }
 }
 @media only screen and (min-width: 960px){
-    .rshero{        
+    .rshero{   
+        top: 0rem;     
         left:6.875rem;
+    }
+}
+@media only screen and (min-width: 768px){
+    .above{
+        top: 3.7rem;
+    }
+}
+@media only screen and (min-width: 960px){
+    .above{
+        top: 0rem;
     }
 }
 .instagram, .linkedin, .gmail{
@@ -69,12 +80,13 @@
 .fotoperfile{
     width: 16rem;
     height: 17.125rem;
-    padding: 3.31rem 0 0 2rem; 
+    padding: 1.5rem 0 0 2rem; 
     margin: 0 auto;
     display: block;   
 }
 @media only screen and (min-width: 768px){
     .fotoperfile{ 
+        padding: 3.5rem 0 0 2rem;
         width: 27.25rem;
         height: 27.8125rem;
         margin: 0 auto;

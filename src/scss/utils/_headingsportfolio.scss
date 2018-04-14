@@ -2,7 +2,7 @@ body{
     margin:0;
     color: $c-blu;
 }
-.p{
+.parrafo{
     font-family: Lato, sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -11,36 +11,15 @@ body{
     max-width: 90%;
 }
 @media only screen and (min-width: 768px){
-    .p{
+    .parrafo{
         margin-left: 3.125rem;
     }
 }
 @media only screen and (min-width: 960px){
-   .p{
+   .parrafo{
         margin-left: 6.875rem;
     }
 }
-/*.pnude{
-    font-family: Lato, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: $c-nude;
-    margin-left: 1.25rem; 
-    
-}
-@media only screen and (min-width: 768px){
-    .pnude{
-        margin-left: 3.125rem;
-    }
-}
-@media only screen and (min-width: 960px){
-    .pnude{
-        margin: 0 auto;
-        margin-top:98px;
-        margin-left: 6.875rem;
-    }
-}*/
 .pbold{
     font-family: PlayfairDisplay, serif;
     font-weight: bold;

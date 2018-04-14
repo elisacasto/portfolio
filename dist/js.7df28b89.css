@@ -2,7 +2,7 @@ body {
   margin: 0;
   color: #272838; }
 
-.p {
+.parrafo {
   font-family: Lato, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -11,34 +11,13 @@ body {
   max-width: 90%; }
 
 @media only screen and (min-width: 768px) {
-  .p {
+  .parrafo {
     margin-left: 3.125rem; } }
 
 @media only screen and (min-width: 960px) {
-  .p {
+  .parrafo {
     margin-left: 6.875rem; } }
 
-/*.pnude{
-    font-family: Lato, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: $c-nude;
-    margin-left: 1.25rem; 
-    
-}
-@media only screen and (min-width: 768px){
-    .pnude{
-        margin-left: 3.125rem;
-    }
-}
-@media only screen and (min-width: 960px){
-    .pnude{
-        margin: 0 auto;
-        margin-top:98px;
-        margin-left: 6.875rem;
-    }
-}*/
 .pbold {
   font-family: PlayfairDisplay, serif;
   font-weight: bold;
@@ -136,28 +115,25 @@ body {
   background-color: #272838;
   border: none;
   height: 0.12rem;
-  width: 19.5rem;
+  width: 11rem;
   margin-left: 0;
   margin-top: -1.3rem;
   margin-bottom: 2rem; }
   .csIntroDivider-about {
     background-color: #EFD7AB;
-    width: 22.8rem; }
-  .csIntroDivider-education {
-    margin-left: 7rem;
-    width: 10rem; }
+    width: 13.8rem; }
   .csIntroDivider-project1 {
     width: 20rem; }
   .csIntroDivider-project2 {
-    width: 31.8rem; }
+    width: 20.6rem; }
   .csIntroDivider-project3 {
-    width: 24.9rem; }
+    width: 15.5rem; }
   .csIntroDivider-project32 {
-    width: 23.4rem; }
+    width: 14.2rem; }
   .csIntroDivider-project33 {
-    width: 27rem; }
+    width: 17rem; }
   .csIntroDivider-project4 {
-    width: 26rem; }
+    width: 16.2rem; }
 
 .divider {
   background-color: #272838;
@@ -218,6 +194,22 @@ body {
   .projects {
     margin-top: 7rem; } }
 
+.containerwork {
+  display: flex; }
+
+.event {
+  margin-top: 5rem;
+  margin-left: 1.25rem;
+  margin-bottom: 0; }
+
+@media only screen and (min-width: 768px) {
+  .event {
+    margin-left: 3.125rem; } }
+
+@media only screen and (min-width: 960px) {
+  .event {
+    margin-left: 6.875rem; } }
+
 .fichaproyecto {
   background: white;
   height: 9.5rem;
@@ -226,8 +218,7 @@ body {
   text-align: center;
   margin: 0 auto;
   padding-top: 2rem;
-  margin-bottom: 2rem;
-  z-index: 1; }
+  margin-bottom: 2rem; }
 
 @media screen and (min-width: 768px) {
   .fichaproyecto {
@@ -240,9 +231,16 @@ body {
     height: 12rem;
     margin-top: 0; } }
 
+.gallery {
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
 @media screen and (min-width: 768px) {
-  .photos {
-    transform: translateX(100px); } }
+  .gallery {
+    transform: translateX(100px);
+    margin: 0 auto;
+    width: 568px; } }
 
 .textodescription {
   background: #272838;
@@ -278,6 +276,12 @@ body {
   .backportfolio {
     margin-left: 6.875rem; } }
 
+.flechaback {
+  width: 1.8rem;
+  height: 1rem;
+  margin-right: 1rem;
+  transform: rotate(90deg); }
+
 @media screen and (min-width: 768px) {
   .csIntroDivider-project1 {
     width: 27rem; } }
@@ -286,53 +290,51 @@ body {
   .csIntroDivider-project1 {
     width: 31rem; } }
 
-.tipofrafia {
-  margin-bottom: 5rem; }
+@media screen and (min-width: 768px) {
+  .csIntroDivider-project2 {
+    width: 28rem; } }
 
-.flechaback {
-  width: 1.8rem;
-  height: 1rem;
-  margin-right: 1rem;
-  transform: rotate(90deg); }
+@media screen and (min-width: 960px) {
+  .csIntroDivider-project2 {
+    width: 31.8rem; } }
 
-.containerwork {
-  display: flex; }
+@media screen and (min-width: 768px) {
+  .csIntroDivider-project3 {
+    width: 21.5rem; } }
 
-.process {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 6rem 0;
-  background: #EFD7AB;
-  margin-bottom: 5rem;
-  justify-content: space-around; }
+@media screen and (min-width: 960px) {
+  .csIntroDivider-project3 {
+    width: 24.9rem; } }
 
-.tipography {
-  margin-right: 3rem; }
+@media screen and (min-width: 768px) {
+  .csIntroDivider-project32 {
+    width: 19.5rem; } }
 
-.box {
-  display: flex; }
+@media screen and (min-width: 960px) {
+  .csIntroDivider-project32 {
+    width: 23.4rem; } }
 
-.boxcolor {
-  margin-right: 1rem;
-  width: 5rem;
-  height: 5rem;
-  border: solid rgba(77, 76, 76, 0.781); }
+@media screen and (min-width: 768px) {
+  .csIntroDivider-project33 {
+    width: 23.3rem; } }
 
-.green {
-  background: #7acbb8; }
+@media screen and (min-width: 960px) {
+  .csIntroDivider-project33 {
+    width: 27rem; } }
 
-.yellow {
-  background: yellow; }
+@media screen and (min-width: 768px) {
+  .csIntroDivider-project4 {
+    width: 22.3rem; } }
 
-.blue {
-  background: #0079e7; }
+@media screen and (min-width: 960px) {
+  .csIntroDivider-project4 {
+    width: 26rem; } }
 
 .minombre {
   font-family: PlayfairDisplay, serif;
   font-weight: bold;
   font-size: 1.75rem;
-  margin-bottom: 0.375rem;
+  margin-bottom: 0;
   margin: 0rem;
   padding: 0rem; }
 
@@ -469,6 +471,22 @@ body {
   display: block;
   margin: 0; }
 
+@media screen and (min-width: 768px) {
+  .csIntroDivider-about {
+    width: 19.2rem; } }
+
+@media screen and (min-width: 960px) {
+  .csIntroDivider-about {
+    width: 22.8rem; } }
+
+@media screen and (min-width: 768px) {
+  .csIntroDivider-home {
+    width: 15.6rem; } }
+
+@media screen and (min-width: 960px) {
+  .csIntroDivider-home {
+    width: 19.5rem; } }
+
 .menu {
   justify-content: center;
   display: flex;
@@ -486,12 +504,17 @@ body {
     margin-top: -3.5rem;
     margin-right: 6.875rem; } }
 
+@media only screen and (min-width: 960px) {
+  .index {
+    margin-top: 0.5rem;
+    margin-right: 6.875rem; } }
+
 ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-.uno, .dos, .tres {
+.menuabout, .menuworks, .menucontact {
   margin-right: 3rem; }
 
 a {
@@ -528,7 +551,7 @@ ul li:hover a {
   .cajaproyecto {
     align-items: center; } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   .cajaproyecto {
     display: flex;
     justify-content: center;
@@ -536,13 +559,13 @@ ul li:hover a {
     margin-bottom: 2rem; } }
 
 .imgproyecto {
+  display: flex;
   width: 100%;
   height: auto;
   margin: 0 auto; }
 
 @media screen and (min-width: 768px) {
   .imgproyecto {
-    margin: 0 auto;
     width: 568px; } }
 
 .cajaficha {
@@ -587,7 +610,7 @@ ul li:hover a {
   font-size: 14px;
   color: #EFD7AB;
   margin: auto;
-  margin-top: -2.5rem; }
+  margin-top: -2.2rem; }
 
 @media screen and (min-width: 768px) {
   .textboton {
@@ -618,7 +641,16 @@ ul li:hover a {
 
 @media only screen and (min-width: 960px) {
   .rshero {
+    top: 0rem;
     left: 6.875rem; } }
+
+@media only screen and (min-width: 768px) {
+  .above {
+    top: 3.7rem; } }
+
+@media only screen and (min-width: 960px) {
+  .above {
+    top: 0rem; } }
 
 .instagram, .linkedin, .gmail {
   width: 40px;
@@ -663,12 +695,13 @@ ul li:hover a {
 .fotoperfile {
   width: 16rem;
   height: 17.125rem;
-  padding: 3.31rem 0 0 2rem;
+  padding: 1.5rem 0 0 2rem;
   margin: 0 auto;
   display: block; }
 
 @media only screen and (min-width: 768px) {
   .fotoperfile {
+    padding: 3.5rem 0 0 2rem;
     width: 27.25rem;
     height: 27.8125rem;
     margin: 0 auto; } }
