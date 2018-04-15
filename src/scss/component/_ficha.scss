@@ -1,17 +1,23 @@
-
-.containerproject{
-    margin-bottom:5rem; 
-}
 @media screen and (min-width: $MQ-L){
+.containerproject{
+    padding-top: 5rem;
+    margin-bottom:10rem;
+    }
+}
+.cajaproyecto{
+    margin-bottom:5rem;
+}
+@media screen and (min-width: $MQ-M){
 .cajaproyecto{
     align-items: center;
     }
 }
 @media screen and (min-width: $MQ-L){
     .cajaproyecto{
+        background: $c-blu;
         display:flex;
         justify-content: center;
-        height: 381px;
+        height: 15rem;
         margin-bottom: 2rem;
     }
 }

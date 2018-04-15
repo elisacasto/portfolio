@@ -222,13 +222,11 @@ body {
 
 @media screen and (min-width: 768px) {
   .fichaproyecto {
-    width: 29rem;
-    height: 10.5rem; } }
+    width: 33.75rem;
+    height: 12rem; } }
 
 @media screen and (min-width: 960px) {
   .fichaproyecto {
-    width: 33.75rem;
-    height: 12rem;
     margin-top: 0; } }
 
 .gallery {
@@ -544,18 +542,24 @@ ul li:hover a {
   font-weight: bold;
   margin-right: 3rem; }
 
-.containerproject {
+@media screen and (min-width: 960px) {
+  .containerproject {
+    padding-top: 5rem;
+    margin-bottom: 10rem; } }
+
+.cajaproyecto {
   margin-bottom: 5rem; }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 768px) {
   .cajaproyecto {
     align-items: center; } }
 
 @media screen and (min-width: 960px) {
   .cajaproyecto {
+    background: #272838;
     display: flex;
     justify-content: center;
-    height: 381px;
+    height: 15rem;
     margin-bottom: 2rem; } }
 
 .imgproyecto {

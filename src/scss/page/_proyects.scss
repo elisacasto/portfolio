@@ -40,14 +40,13 @@
 }
 @media screen and (min-width: $MQ-M){
     .fichaproyecto{
-        width: 29rem;
-        height: 10.5rem;
+        width: 33.75rem;
+        height: 12rem;
     }
 }
 @media screen and (min-width: $MQ-L){
     .fichaproyecto{ 
-        width: 33.75rem;
-        height: 12rem;
+        
         margin-top: 0;
     }
 }
