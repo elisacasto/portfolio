@@ -93,7 +93,7 @@ body {
     font-size: 1.75rem;
     line-height: 2.625rem; } }
 
-.containerwork {
+.container-work {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -145,10 +145,10 @@ body {
   margin-bottom: 2rem; }
 
 @media only screen and (min-width: 768px) {
-  .containercontacto {
+  .container-contacto {
     display: flex; } }
 
-.cajacontacto {
+.caja-contacto {
   display: flex;
   flex-wrap: wrap;
   background: #EFD7AB;
@@ -157,12 +157,12 @@ body {
   margin: 0 auto; }
 
 @media only screen and (min-width: 768px) {
-  .cajacontacto {
+  .caja-contacto {
     margin-top: 3rem;
     width: 30rem;
     height: 30rem; } }
 
-.textocontacto {
+.texto-contacto {
   text-align: center;
   margin: 0 auto;
   margin-top: 1.6rem; }
@@ -173,7 +173,7 @@ body {
 .contact {
   padding-bottom: 0.2rem; }
 
-.contactosocial {
+.contacto-social {
   margin: 0 auto;
   display: flex; }
 
@@ -184,7 +184,7 @@ body {
   font-family: lato, sans-serif;
   text-decoration: none; }
 
-.containerproyecto {
+.container-proyecto {
   margin: 0 auto; }
 
 .projects {
@@ -194,7 +194,7 @@ body {
   .projects {
     margin-top: 7rem; } }
 
-.containerwork {
+.container-work {
   display: flex; }
 
 .event {
@@ -210,7 +210,7 @@ body {
   .event {
     margin-left: 6.875rem; } }
 
-.fichaproyecto {
+.ficha-proyecto {
   background: white;
   height: 9.5rem;
   width: 25rem;
@@ -221,12 +221,12 @@ body {
   margin-bottom: 2rem; }
 
 @media screen and (min-width: 768px) {
-  .fichaproyecto {
+  .ficha-proyecto {
     width: 33.75rem;
     height: 12rem; } }
 
 @media screen and (min-width: 960px) {
-  .fichaproyecto {
+  .ficha-proyecto {
     margin-top: 0; } }
 
 .gallery {
@@ -240,7 +240,7 @@ body {
     margin: 0 auto;
     width: 568px; } }
 
-.textodescription {
+.texto-description {
   background: #272838;
   margin-bottom: 3rem;
   margin-top: 3rem; }
@@ -261,20 +261,20 @@ body {
   .description {
     max-width: 51.6rem; } }
 
-.backportfolio {
+.back-portfolio {
   margin-top: 4rem;
   display: flex;
   margin-left: 1.25rem; }
 
 @media only screen and (min-width: 768px) {
-  .backportfolio {
+  .back-portfolio {
     margin-left: 3.125rem; } }
 
 @media only screen and (min-width: 960px) {
-  .backportfolio {
+  .back-portfolio {
     margin-left: 6.875rem; } }
 
-.flechaback {
+.flecha-back {
   width: 1.8rem;
   height: 1rem;
   margin-right: 1rem;
@@ -328,7 +328,7 @@ body {
   .csIntroDivider-project4 {
     width: 26rem; } }
 
-.minombre {
+.myname {
   font-family: PlayfairDisplay, serif;
   font-weight: bold;
   font-size: 1.75rem;
@@ -337,14 +337,14 @@ body {
   padding: 0rem; }
 
 @media only screen and (min-width: 768px) {
-  .minombre {
+  .myname {
     font-size: 3rem; } }
 
-.experiencecontainer {
+.experience-container {
   margin-top: 5.5rem; }
 
 @media only screen and (min-width: 960px) {
-  .experiencecontainer {
+  .experience-container {
     display: flex;
     margin-bottom: 8rem;
     max-width: 1024px;
@@ -354,7 +354,7 @@ body {
   display: flex;
   flex-wrap: wrap; }
 
-.experienceitem {
+.experience-item {
   display: block;
   margin-bottom: 2rem; }
 
@@ -391,7 +391,7 @@ body {
   .v {
     margin-left: 10.2rem; } }
 
-.containerblue {
+.container-blue {
   margin-top: 111px;
   background: #272838;
   margin-top: 4rem; }
@@ -438,7 +438,7 @@ body {
     line-height: 1.5rem; } }
 
 @media only screen and (min-width: 960px) {
-  .sectionskills {
+  .section-skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -465,7 +465,7 @@ body {
     width: 33.75rem;
     height: 15rem; } }
 
-.containerboton {
+.container-boton {
   display: block;
   margin: 0; }
 
@@ -485,7 +485,7 @@ body {
   .csIntroDivider-home {
     width: 19.5rem; } }
 
-.menu {
+.nav {
   justify-content: center;
   display: flex;
   font-family: PlayfairDisplay, serif;
@@ -493,12 +493,12 @@ body {
   padding: 1.5rem 0rem 0 1.25rem; }
 
 @media only screen and (min-width: 768px) {
-  .menu {
+  .nav {
     justify-content: flex-end;
     margin-right: 3.125rem; } }
 
 @media only screen and (min-width: 960px) {
-  .menu {
+  .nav {
     margin-top: -3.5rem;
     margin-right: 6.875rem; } }
 
@@ -525,14 +525,14 @@ a {
 li {
   display: inline-block; }
 
-.logoheader {
+.logo-header {
   margin: auto;
   margin-top: 1.3rem;
   width: 9.8rem;
   height: 2.4rem; }
 
 @media only screen and (min-width: 960px) {
-  .logoheader {
+  .logo-header {
     margin-top: 2rem; } }
 
 ul li:hover a {
@@ -543,36 +543,36 @@ ul li:hover a {
   margin-right: 3rem; }
 
 @media screen and (min-width: 960px) {
-  .containerproject {
+  .container-project {
     padding-top: 5rem;
     margin-bottom: 10rem; } }
 
-.cajaproyecto {
+.caja-proyecto {
   margin-bottom: 5rem; }
 
 @media screen and (min-width: 768px) {
-  .cajaproyecto {
+  .caja-proyecto {
     align-items: center; } }
 
 @media screen and (min-width: 960px) {
-  .cajaproyecto {
+  .caja-proyecto {
     background: #272838;
     display: flex;
     justify-content: center;
     height: 15rem;
     margin-bottom: 2rem; } }
 
-.imgproyecto {
+.img-proyecto {
   display: flex;
   width: 100%;
   height: auto;
   margin: 0 auto; }
 
 @media screen and (min-width: 768px) {
-  .imgproyecto {
+  .img-proyecto {
     width: 568px; } }
 
-.cajaficha {
+.caja-ficha {
   background: white;
   height: 10.5rem;
   width: 20rem;
@@ -582,12 +582,12 @@ ul li:hover a {
   padding-top: 1rem; }
 
 @media screen and (min-width: 768px) {
-  .cajaficha {
+  .caja-ficha {
     width: 24rem;
     height: 15rem; } }
 
 @media screen and (min-width: 960px) {
-  .cajaficha {
+  .caja-ficha {
     margin-top: 0;
     width: 33.75rem;
     margin-top: 0; } }
@@ -609,7 +609,7 @@ ul li:hover a {
     top: 8rem;
     width: 12.625rem; } }
 
-.textboton {
+.text-boton {
   font-family: PlayfairDisplay, serif;
   font-size: 14px;
   color: #EFD7AB;
@@ -617,12 +617,12 @@ ul li:hover a {
   margin-top: -2.2rem; }
 
 @media screen and (min-width: 768px) {
-  .textboton {
+  .text-boton {
     top: 8.3rem;
     font-size: 1.125rem; } }
 
 @media screen and (min-width: 960px) {
-  .textboton {
+  .text-boton {
     margin-top: -2.5rem;
     font-size: 1.125rem; } }
 
@@ -665,25 +665,25 @@ ul li:hover a {
   .instagram, .linkedin, .gmail {
     margin-right: 1rem; } }
 
-.bloquecabecera {
+.bloque-cabecera {
   align-items: center; }
 
 @media only screen and (min-width: 768px) {
-  .bloquecabecera {
+  .bloque-cabecera {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto; } }
 
-.bloquerool {
+.bloque-rool {
   width: 16rem; }
 
 @media only screen and (min-width: 768px) {
-  .bloquerool {
+  .bloque-rool {
     margin: 0 auto;
     width: 25rem; } }
 
 @media only screen and (min-width: 960px) {
-  .bloquerool {
+  .bloque-rool {
     margin-right: 6.125rem; } }
 
 .logo {
@@ -696,7 +696,7 @@ ul li:hover a {
     width: 25rem;
     height: 6.25rem; } }
 
-.fotoperfile {
+.foto-perfile {
   width: 16rem;
   height: 17.125rem;
   padding: 1.5rem 0 0 2rem;
@@ -704,7 +704,7 @@ ul li:hover a {
   display: block; }
 
 @media only screen and (min-width: 768px) {
-  .fotoperfile {
+  .foto-perfile {
     padding: 3.5rem 0 0 2rem;
     width: 27.25rem;
     height: 27.8125rem;
@@ -716,30 +716,30 @@ ul li:hover a {
   height: 1.5rem;
   align-items: flex-end; }
 
-.cajafooter {
+.caja-footer {
   width: 100%;
   background: #EFD7AB;
   margin-top: 6rem; }
 
-.footercontainer {
+.footer-container {
   margin: 0 auto; }
 
-.textofooter {
+.texto-footer {
   text-align: center;
   margin: auto;
   padding-top: 2rem; }
 
-.redessociales {
+.redes-sociales {
   display: flex;
   justify-content: space-around;
   padding: 1rem 2rem; }
 
 @media only screen and (min-width: 768px) {
-  .redessociales {
+  .redes-sociales {
     padding: 1rem 10rem 2rem; } }
 
 @media only screen and (min-width: 960px) {
-  .redessociales {
+  .redes-sociales {
     padding: 1rem 22rem 2rem; } }
 
 .copyright {

@@ -1,4 +1,4 @@
-.minombre{
+.myname{
     font-family: PlayfairDisplay, serif;
     font-weight: bold;
     font-size: 1.75rem;
@@ -8,15 +8,15 @@
 }
 
 @media only screen and (min-width: $MQ-M){
-    .minombre{
+    .myname{
         font-size: 3rem;
     }
 }
-.experiencecontainer{
+.experience-container{
     margin-top: 5.5rem;    
 }
 @media only screen and (min-width: $MQ-L){
-    .experiencecontainer{
+    .experience-container{
         display: flex;
         margin-bottom:8rem; 
         max-width: 1024px;
@@ -27,7 +27,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.experienceitem{
+.experience-item{
     display: block;
     margin-bottom: 2rem;
 }
@@ -68,7 +68,7 @@
         margin-left:10.2rem;
     }
 }
-.containerblue{
+.container-blue{
     margin-top: 111px;
     background: $c-blu;
     margin-top: 4rem;
@@ -121,7 +121,7 @@
     }
 }
 @media only screen and (min-width: $MQ-L){
-    .sectionskills{
+    .section-skills{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -151,7 +151,7 @@
         height: 15rem;
     }
 }
-.containerboton{
+.container-boton{
 display: block;
 margin: 0;
 }

@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: $MQ-M){
     .rshero{
         display: flex;
         flex-direction: row;
@@ -16,18 +16,18 @@
         left: 3.125rem;
     }
 }
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: $MQ-L){
     .rshero{   
         top: 0rem;     
         left:6.875rem;
     }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: $MQ-M){
     .above{
         top: 3.7rem;
     }
 }
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: $MQ-L){
     .above{
         top: 0rem;
     }
@@ -37,32 +37,32 @@
     height: 40px;
     margin-top:1rem;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: $MQ-M){
     .instagram, .linkedin, .gmail{
     margin-right: 1rem;
     }
 }
-.bloquecabecera{
+.bloque-cabecera{
     align-items: center;
 }
-@media only screen and (min-width: 768px){
-    .bloquecabecera{
+@media only screen and (min-width: $MQ-M){
+    .bloque-cabecera{
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
     }
 }
-.bloquerool{
+.bloque-rool{
     width: 16rem;
 }
-@media only screen and (min-width: 768px){
-    .bloquerool{
+@media only screen and (min-width: $MQ-M){
+    .bloque-rool{
         margin: 0 auto;
         width: 25rem;
     }
 }
-@media only screen and (min-width: 960px){
-    .bloquerool{
+@media only screen and (min-width: $MQ-L){
+    .bloque-rool{
         margin-right: 6.125rem;
     }
 }
@@ -71,21 +71,21 @@
     padding:0 2.9375rem 0.5625rem 0rem;
     width: 14rem;   
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: $MQ-M){
     .logo{
         width: 25rem;
         height: 6.25rem;
     }
 }
-.fotoperfile{
+.foto-perfile{
     width: 16rem;
     height: 17.125rem;
     padding: 1.5rem 0 0 2rem; 
     margin: 0 auto;
     display: block;   
 }
-@media only screen and (min-width: 768px){
-    .fotoperfile{ 
+@media only screen and (min-width: $MQ-M){
+    .foto-perfile{ 
         padding: 3.5rem 0 0 2rem;
         width: 27.25rem;
         height: 27.8125rem;

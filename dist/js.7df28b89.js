@@ -148,7 +148,7 @@ module.exports = reloadCSS;
 'use strict';
 
 require('../scss/index.scss');
-},{"../scss/index.scss":25}],62:[function(require,module,exports) {
+},{"../scss/index.scss":25}],68:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -317,5 +317,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[62,8])
+},{}]},{},[68,8])
 //# sourceMappingURL=/js.7df28b89.map

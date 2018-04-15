@@ -1,23 +1,23 @@
-.menu{
+.nav{
     justify-content: center;
     display: flex;
     font-family: PlayfairDisplay, serif;
     font-size: 1rem;
     padding: 1.5rem 0rem 0 1.25rem;
 }
-@media only screen and (min-width: 768px){
-    .menu{
+@media only screen and (min-width: $MQ-M){
+    .nav{
     justify-content: flex-end;
     margin-right: 3.125rem;
     }
 }
-@media only screen and (min-width: 960px){
-    .menu{
+@media only screen and (min-width: $MQ-L){
+    .nav{
         margin-top: -3.5rem;
         margin-right: 6.875rem;
     }
 }
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: $MQ-L){
     .index{
         margin-top: 0.5rem;
         margin-right: 6.875rem;
@@ -42,14 +42,14 @@ a{
 li{
     display: inline-block;
 }
-.logoheader{
+.logo-header{
     margin: auto;
     margin-top: 1.3rem;
     width: 9.8rem;
     height: 2.4rem;
 }
-@media only screen and (min-width: 960px){
-    .logoheader{
+@media only screen and (min-width: $MQ-L){
+    .logo-header{
         margin-top:2rem;
     }
 }

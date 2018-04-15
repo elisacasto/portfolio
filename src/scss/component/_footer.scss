@@ -1,29 +1,29 @@
-.cajafooter{
+.caja-footer{
     width: 100%;
     background: $c-nude;
     margin-top: 6rem;
 }
-.footercontainer{
+.footer-container{
     margin: 0 auto;
     
 }
-.textofooter{
+.texto-footer{
     text-align: center;
     margin: auto;
     padding-top: 2rem;
 }
-.redessociales{
+.redes-sociales{
     display: flex;
     justify-content: space-around;
     padding: 1rem 2rem;   
 }
-@media only screen and (min-width: 768px){
-    .redessociales{
+@media only screen and (min-width: $MQ-M){
+    .redes-sociales{
         padding: 1rem 10rem 2rem;
     }
 }
-@media only screen and (min-width: 960px){
-    .redessociales{
+@media only screen and (min-width: $MQ-L){
+    .redes-sociales{
         padding: 1rem 22rem 2rem;
     }
 }

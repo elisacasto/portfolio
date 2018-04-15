@@ -1,19 +1,19 @@
 @media screen and (min-width: $MQ-L){
-.containerproject{
+.container-project{
     padding-top: 5rem;
     margin-bottom:10rem;
     }
 }
-.cajaproyecto{
+.caja-proyecto{
     margin-bottom:5rem;
 }
 @media screen and (min-width: $MQ-M){
-.cajaproyecto{
+.caja-proyecto{
     align-items: center;
     }
 }
 @media screen and (min-width: $MQ-L){
-    .cajaproyecto{
+    .caja-proyecto{
         background: $c-blu;
         display:flex;
         justify-content: center;
@@ -21,7 +21,7 @@
         margin-bottom: 2rem;
     }
 }
-.imgproyecto{
+.img-proyecto{
     display: flex;
     width: 100%;
     height: auto;
@@ -29,11 +29,11 @@
    
 }
 @media screen and (min-width: $MQ-M){
-    .imgproyecto{
+    .img-proyecto{
         width: 568px;
     }
 }
-.cajaficha{
+.caja-ficha{
     background: white;
     height: 10.5rem;
     width: 20rem;
@@ -44,13 +44,13 @@
     
 }
 @media screen and (min-width: $MQ-M){
-    .cajaficha{
+    .caja-ficha{
         width: 24rem;
         height: 15rem;
     }
 }
 @media screen and (min-width: $MQ-L){
-    .cajaficha{ 
+    .caja-ficha{ 
         margin-top: 0;
         width: 33.75rem;
         
@@ -76,7 +76,7 @@
         width: 12.625rem;
     }
 }
-.textboton{
+.text-boton{
     font-family: PlayfairDisplay, serif;
     font-size: 14px;
     color: $c-nude;
@@ -84,13 +84,13 @@
     margin-top: -2.2rem;
 }
 @media screen and (min-width: $MQ-M){
-    .textboton{
+    .text-boton{
         top: 8.3rem;
         font-size: 1.125rem;
     }
 }
 @media screen and (min-width: $MQ-L){
-    .textboton{
+    .text-boton{
         margin-top: -2.5rem;
         font-size: 1.125rem;
     }
