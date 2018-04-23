@@ -1,0 +1,1 @@
+.retanguloficha{position:absolute;z-index:1;display:flex;margin-top:20px;background:c-nude;width:15rem;height:13.5rem}.ficha{position:absolute;z-index:2;display:flex;background:yellow;width:20rem;height:10.5rem;box-shadow:0 5px rgba(0,0,0,0.342);margin-left:1.25rem}
