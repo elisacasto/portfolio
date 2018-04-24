@@ -6,6 +6,7 @@
 .rshero{
     display: flex;
     flex-direction: column;
+    height: 12rem;
 }
 @media only screen and (min-width: $MQ-M){
     .rshero{
@@ -43,6 +44,7 @@
     }
 }
 .bloque-cabecera{
+    margin-bottom: 5rem;
     align-items: center;
 }
 @media only screen and (min-width: $MQ-M){
@@ -80,7 +82,7 @@
 .foto-perfile{
     width: 16rem;
     height: 17.125rem;
-    padding: 1.5rem 0 0 2rem; 
+    padding-top: 1.5rem; 
     margin: 0 auto;
     display: block;   
 }
