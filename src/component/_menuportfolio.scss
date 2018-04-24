@@ -20,7 +20,7 @@
 }
 @media only screen and (min-width: $MQ-L){
     .index{
-        margin-top: 0.5rem;
+        margin-top: -1.5rem;
         margin-right: 6.875rem;
     }
 }
@@ -61,5 +61,6 @@ ul li:hover a {
     font-weight: bold;
 }
 .active{
+    padding: 2rem;
     font-weight: bold;
 }
