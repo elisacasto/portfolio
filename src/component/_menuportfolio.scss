@@ -3,13 +3,14 @@
     display: flex;
     font-family: PlayfairDisplay, serif;
     font-size: 1rem;
-    padding: 1.5rem 0rem 0 0;
+    padding: 0.8rem 0rem 0 0;
 }
 @media only screen and (min-width: $MQ-M){
     .nav{
     margin-top: -1.9rem;
     justify-content: flex-end;
     margin-right: 3.125rem;
+    padding-top: 1.5rem;
     }
 }
 @media only screen and (min-width: $MQ-L){
@@ -31,16 +32,19 @@ ul{
     
 }
 .menuabout, .menuworks, .menucontact{
-    padding: 2rem;
+    padding: 1rem;
+}
+@media only screen and (min-width: $MQ-M){
+    .menuabout, .menuworks, .menucontact{
+        padding: 2rem;
+    }
 }
 a{
     font-family: Playfair Display, serif;
     color: $c-blu;
     font-size: 1rem;
     display: flex;
-    text-decoration: none;
-    
-    
+    text-decoration: none;  
 }
 li{
     
@@ -61,6 +65,11 @@ ul li:hover a {
     font-weight: bold;
 }
 .active{
-    padding: 2rem;
+    padding: 1rem;
     font-weight: bold;
+}
+@media only screen and (min-width: $MQ-L){
+    .active{
+        padding: 2rem;
+    }
 }
