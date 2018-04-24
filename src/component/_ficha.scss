@@ -1,0 +1,97 @@
+@media screen and (min-width: $MQ-L){
+.container-project{
+    padding-top: 5rem;
+    margin-bottom:10rem;
+    }
+}
+.caja-proyecto{
+    margin-bottom:5rem;
+}
+@media screen and (min-width: $MQ-M){
+.caja-proyecto{
+    align-items: center;
+    }
+}
+@media screen and (min-width: $MQ-L){
+    .caja-proyecto{
+        background: $c-blu;
+        display:flex;
+        justify-content: center;
+        height: 15rem;
+        margin-bottom: 2rem;
+    }
+}
+.img-proyecto{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+   
+}
+@media screen and (min-width: $MQ-M){
+    .img-proyecto{
+        width: 568px;
+    }
+}
+.caja-ficha{
+    background: white;
+    height: 10.5rem;
+    width: 20rem;
+    box-shadow:0 7px 20px rgb(99, 98, 98);
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1rem;
+    
+}
+@media screen and (min-width: $MQ-M){
+    .caja-ficha{
+        width: 24rem;
+        height: 15rem;
+    }
+}
+@media screen and (min-width: $MQ-L){
+    .caja-ficha{ 
+        margin-top: 0;
+        width: 33.75rem;
+        
+        margin-top: 0;
+    }
+}
+.boton{
+    z-index: 1;
+    top: 6rem;
+    margin:auto;
+    width: 170px;
+}
+@media screen and (min-width: $MQ-M){
+    .boton{
+        margin-top: -0.5rem;
+        margin:auto;
+        width: 12.625rem;
+    }
+}
+@media screen and (min-width: $MQ-L){
+    .boton{
+        top: 8rem;
+        width: 12.625rem;
+    }
+}
+.text-boton{
+    font-family: PlayfairDisplay, serif;
+    font-size: 14px;
+    color: $c-nude;
+    margin:auto;
+    margin-top: -2.2rem;
+}
+@media screen and (min-width: $MQ-M){
+    .text-boton{
+        top: 8.3rem;
+        font-size: 1.125rem;
+    }
+}
+@media screen and (min-width: $MQ-L){
+    .text-boton{
+        margin-top: -2.5rem;
+        font-size: 1.125rem;
+    }
+}

@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    color: $c-blu;
+}
+.parrafo{
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.25rem;
+    max-width: 90%;
+}
+@media only screen and (min-width: 768px){
+    .parrafo{
+        margin-left: 3.125rem;
+    }
+}
+@media only screen and (min-width: 960px){
+   .parrafo{
+        margin-left: 6.875rem;
+    }
+}
+.pbold{
+    font-family: PlayfairDisplay, serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-left: 1.2rem;
+}
+@media only screen and (min-width: 768px){
+    .pbold{
+        font-size: 1.25rem;
+        margin-left: 3.125rem; 
+    }
+}
+@media only screen and (min-width: 960px){
+    .pbold{
+        margin-left: 6.875rem; 
+    }
+}
+.plight{
+    font-family: Lato, sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    margin-left: 1.25rem;
+}
+@media only screen and (min-width: 768px){
+    .plight{
+        font-size: 1.25rem;
+        margin-left: 3.125rem; 
+    }
+}
+@media only screen and (min-width: 960px){
+    .plight{
+        margin-left: 6.875rem; 
+    }
+}
+.titulo{
+    font-family: PlayfairDisplay, serif;
+    font-weight: bold;
+    font-size: 1.75rem;
+    margin-left: 1.25rem;
+    
+}
+@media only screen and (min-width: 768px){
+    .titulo{
+        font-size: 2.25rem;
+        margin-left: 3.125rem;
+    }
+}
+@media only screen and (min-width: 960px){
+    .titulo{
+        margin-left: 6.875rem;
+    }
+}
+.latoh3{
+    font-family: Lato, sans-serif;
+    font-size: 1.25rem;
+    font-weight: lighter;
+    line-height: 1.875rem;
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+    
+}
+@media only screen and (min-width: 768px){
+    .latoh3{
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+    }
+}
+
+.subtitle {
+    font-family: PlayfairDisplay, serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+@media only screen and (min-width: 768px){
+    .subtitle{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width: 960px){
+    .subtitle{
+        font-size: 1.75rem;
+        line-height: 2.625rem;
+    }
+}

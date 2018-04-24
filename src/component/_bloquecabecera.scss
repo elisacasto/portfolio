@@ -1,0 +1,100 @@
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.rshero{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (min-width: $MQ-M){
+    .rshero{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 0;
+        left: 3.125rem;
+    }
+}
+@media only screen and (min-width: $MQ-L){
+    .rshero{   
+        top: 0rem;     
+        left:6.875rem;
+    }
+}
+@media only screen and (min-width: $MQ-M){
+    .above{
+        top: 3.7rem;
+    }
+}
+@media only screen and (min-width: $MQ-L){
+    .above{
+        top: 0rem;
+    }
+}
+.instagram, .linkedin, .gmail{
+    width: 40px;   
+    height: 40px;
+    margin-top:1rem;
+}
+@media only screen and (min-width: $MQ-M){
+    .instagram, .linkedin, .gmail{
+    margin-right: 1rem;
+    }
+}
+.bloque-cabecera{
+    align-items: center;
+}
+@media only screen and (min-width: $MQ-M){
+    .bloque-cabecera{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
+.bloque-rool{
+    width: 16rem;
+}
+@media only screen and (min-width: $MQ-M){
+    .bloque-rool{
+        margin: 0 auto;
+        width: 25rem;
+    }
+}
+@media only screen and (min-width: $MQ-L){
+    .bloque-rool{
+        margin-right: 6.125rem;
+    }
+}
+.logo{
+    display: flex;
+    padding:0 2.9375rem 0.5625rem 0rem;
+    width: 14rem;   
+}
+@media only screen and (min-width: $MQ-M){
+    .logo{
+        width: 25rem;
+        height: 6.25rem;
+    }
+}
+.foto-perfile{
+    width: 16rem;
+    height: 17.125rem;
+    padding: 1.5rem 0 0 2rem; 
+    margin: 0 auto;
+    display: block;   
+}
+@media only screen and (min-width: $MQ-M){
+    .foto-perfile{ 
+        padding: 3.5rem 0 0 2rem;
+        width: 27.25rem;
+        height: 27.8125rem;
+        margin: 0 auto;
+    }
+}
+.flecha{
+    display: flex;
+    margin: 0 auto;
+    height: 1.5rem;
+    align-items: flex-end;
+}

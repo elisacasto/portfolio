@@ -1,0 +1,38 @@
+.caja-footer{
+    width: 100%;
+    background: $c-nude;
+    margin-top: 6rem;
+}
+.footer-container{
+    margin: 0 auto;
+    
+}
+.texto-footer{
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 2rem;   
+}
+@media only screen and (min-width: $MQ-M){
+    .redes-sociales{
+        padding: 1rem 10rem 2rem;
+    }
+}
+@media only screen and (min-width: $MQ-L){
+    .redes-sociales{
+        padding: 1rem 22rem 2rem;
+    }
+}
+.copyright{
+    color: gray;
+    font-family: lato, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
