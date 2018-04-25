@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     height: 12rem;
+    margin-top: -0.5rem;
 }
 @media only screen and (min-width: $MQ-M){
     .rshero{
@@ -19,7 +20,7 @@
 }
 @media only screen and (min-width: $MQ-L){
     .rshero{   
-        top: 0rem;     
+        top: 0.5rem;     
         left:6.875rem;
     }
 }
@@ -30,7 +31,7 @@
 }
 @media only screen and (min-width: $MQ-L){
     .above{
-        top: 0rem;
+        top: 0.5rem;
     }
 }
 .instagram, .linkedin, .gmail{
@@ -70,7 +71,7 @@
 }
 .logo{
     display: flex;
-    padding:0 2.9375rem 0.5625rem 0rem;
+    padding:0 2.9375rem 0.1rem 0rem;
     width: 14rem;   
 }
 @media only screen and (min-width: $MQ-M){
@@ -82,7 +83,7 @@
 .foto-perfile{
     width: 16rem;
     height: 17.125rem;
-    padding-top: 1.5rem; 
+    padding-top: 0.8rem; 
     margin: 0 auto;
     display: block;   
 }
