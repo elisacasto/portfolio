@@ -56,13 +56,30 @@
     margin: 0 auto;
    
 }
+.photoweb{
+    width: 100%;
+    margin-bottom: 4rem;
+}
 @media screen and (min-width: $MQ-M){
     .gallery{
         transform: translateX(100px);
         margin: 0 auto;
         width: 568px;
     }
+    .photosweb{
+        width: 80%;
+        max-width: 1170px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .photoweb{
+        vertical-align: top;
+        width: 45%;
+        height: auto;
+        margin-right: 2rem;
+    }
 }
+
 .texto-description{
     background: $c-blu;
     margin-bottom: 3rem;
