@@ -41,12 +41,11 @@
 @media screen and (min-width: $MQ-M){
     .ficha-proyecto{
         width: 33.75rem;
-        height: 12rem;
+        
     }
 }
 @media screen and (min-width: $MQ-L){
     .ficha-proyecto{ 
-        
         margin-top: 0;
     }
 }
@@ -183,4 +182,8 @@
     .csIntroDivider-project4{
         width: 26rem;
     }
+}
+.descr{
+    text-align: left !important;
+    margin-left: 1.2rem;
 }
