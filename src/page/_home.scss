@@ -73,7 +73,4 @@
     @include transform(translateY(-5px));
   }
 }
-.bounce {
-    @include animation(bounce 1s infinite);
-  }
 
