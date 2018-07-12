@@ -165,3 +165,11 @@ margin: 0;
         width: 22.8rem;
     }
 }
+.containe{
+    padding: 2rem 0;
+}
+@media screen and (min-width: $MQ-L){
+    .containe{
+        padding:0;
+    }
+}
