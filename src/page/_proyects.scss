@@ -140,7 +140,7 @@
 }
 @media screen and (min-width: $MQ-L){
     .csIntroDivider-project2{
-        width: 31.8rem;
+        width: 29.8rem;
     }
 }
 @media screen and (min-width: $MQ-M){
@@ -183,7 +183,30 @@
         width: 26rem;
     }
 }
+@media screen and (min-width: $MQ-M){
+    .csIntroDivider-project5{
+        width: 20rem;
+    }
+}
+@media screen and (min-width: $MQ-L){
+    .csIntroDivider-project5{
+        width: 25rem;
+    }
+}
 .descr{
     text-align: left !important;
     margin-left: 1.2rem;
 }
+.csIntroDivider-project6{
+    width: 11rem;
+  }
+  @media screen and (min-width: 768px){
+    .csIntroDivider-project6{
+      width: 15rem;
+    }
+  }
+  @media screen and (min-width: $MQ-L){
+    .csIntroDivider-project6{
+        width: 20rem;
+    }
+  }
