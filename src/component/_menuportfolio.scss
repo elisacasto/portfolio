@@ -62,11 +62,11 @@ li{
     }
 }
 ul li:hover a {
-    font-weight: bold;
+    color: $c-nude;
 }
 .active{
     padding: 1rem;
-    font-weight: bold;
+    color: $c-nude;
 }
 @media only screen and (min-width: $MQ-L){
     .active{

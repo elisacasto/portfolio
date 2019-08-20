@@ -1,7 +1,6 @@
 @media screen and (min-width: $MQ-L){
 .container-project{
-    padding-top: 5rem;
-    margin-bottom:10rem;
+    margin-bottom:6rem;
     }
 }
 .caja-proyecto{
@@ -14,11 +13,9 @@
 }
 @media screen and (min-width: $MQ-L){
     .caja-proyecto{
-        background: $c-blu;
         display:flex;
         justify-content: center;
-        height: 15rem;
-        margin-bottom: 2rem;
+        padding: 0 10rem;
     }
 }
 .img-proyecto{
@@ -30,17 +27,18 @@
 }
 @media screen and (min-width: $MQ-M){
     .img-proyecto{
-        width: 568px;
+        width: 600px;
+    }
+}
+@media screen and (min-width: $MQ-L){
+    .img-proyecto{
+        margin: 0px;
     }
 }
 .caja-ficha{
-    background: white;
     height: 10.5rem;
-    width: 20rem;
-    box-shadow:0 7px 20px rgb(99, 98, 98);
     text-align: center;
     margin: 0 auto;
-    padding-top: 1rem;
     
 }
 @media screen and (min-width: $MQ-M){
@@ -52,36 +50,26 @@
 @media screen and (min-width: $MQ-L){
     .caja-ficha{ 
         margin-top: 0;
-        width: 33.75rem;
-        
-        margin-top: 0;
+        padding: 0 3rem;
     }
-}
-.boton{
-    z-index: 1;
-    top: 6rem;
-    margin:auto;
-    width: 170px;
-}
-@media screen and (min-width: $MQ-M){
-    .boton{
-        margin-top: -0.5rem;
-        margin:auto;
-        width: 12.625rem;
-    }
-}
-@media screen and (min-width: $MQ-L){
-    .boton{
-        top: 8rem;
-        width: 12.625rem;
+    .row{
+        flex-direction: row-reverse;
     }
 }
 .text-boton{
-    font-family: PlayfairDisplay, serif;
+    font-family: Playfair Display, serif;
+    font-weight: 100;
+    padding: 15px 30px;
+    background-color: $c-blu;
+    border-radius: 50px;
     font-size: 14px;
     color: $c-nude;
-    margin:auto;
-    margin-top: -2.3rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+.text-boton:hover{
+    color: $c-blu;
+    background-color: $c-nude;
 }
 @media screen and (min-width: $MQ-M){
     .text-boton{
@@ -91,7 +79,8 @@
 }
 @media screen and (min-width: $MQ-L){
     .text-boton{
-        margin-top: -2.5rem;
+        margin-top: 0px;
         font-size: 1.125rem;
     }
+    
 }

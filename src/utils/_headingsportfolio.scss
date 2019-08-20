@@ -1,9 +1,8 @@
 body{
     margin:0;
-    color: $c-blu;
 }
 .parrafo{
-    font-family: Lato, sans-serif;
+    font-family: futura-pt-bold, sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
@@ -42,12 +41,11 @@ body{
     font-size: 1rem;
     font-weight: lighter;
     line-height: 1.5rem;
-    margin-left: 1.25rem;
+    color: #666666;
 }
 @media only screen and (min-width: 768px){
     .plight{
         font-size: 1.25rem;
-        margin-left: 3.125rem; 
     }
 }
 @media only screen and (min-width: 960px){
@@ -56,10 +54,13 @@ body{
     }
 }
 .titulo{
-    font-family: PlayfairDisplay, serif;
+    font-family: futura-pt-bold, sans-serif;
+    letter-spacing: 3px;
+    color: $c-blu;
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 36px;
     margin-left: 1.25rem;
+    text-align: center;
     
 }
 @media only screen and (min-width: 768px){
@@ -70,16 +71,17 @@ body{
 }
 @media only screen and (min-width: 960px){
     .titulo{
-        margin-left: 6.875rem;
+        margin-bottom: 4rem;
     }
 }
 .latoh3{
-    font-family: Lato, sans-serif;
+    font-family:futura-pt-bold, sans-serif;
     font-size: 1.25rem;
     font-weight: lighter;
     line-height: 1.875rem;
     margin-top: 0;
     margin-bottom: 0.625rem;
+    color: $c-blu;
     
 }
 @media only screen and (min-width: 768px){
@@ -90,19 +92,24 @@ body{
 }
 
 .subtitle {
-    font-family: PlayfairDisplay, serif;
+    font-family: futura-pt-bold, sans-serif;
     font-weight: bold;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+    font-size: 2rem;
+    line-height: auto;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+    color: $c-blu;
 }
 @media only screen and (min-width: 768px){
     .subtitle{
         font-size: 1.5rem;
+        margin-bottom: 0px;
     }
 }
 @media only screen and (min-width: 960px){
     .subtitle{
-        font-size: 1.75rem;
-        line-height: 2.625rem;
+        font-size: 5rem;
+        margin-bottom: 25px;
+        margin-top: 0px;
     }
 }

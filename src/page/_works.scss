@@ -19,39 +19,3 @@
 .work{
     margin: auto;
 }
-
-.csIntroDivider{
-    @include subrallado;
-    
-    &-about{
-        background-color: $c-nude;
-        width: 13.8rem;
-    }
-    &-project1{
-        width: 20rem;
-    }    
-    &-project2{
-        width: 18.6rem;
-    }
-    &-project3{
-        width: 15.5rem;
-    }
-    &-project32{
-        width: 14.2rem;
-    }
-    &-project33{
-        width: 17rem;
-    }
-    &-project4{
-        width: 16.2rem;
-    }
-}
-.divider{
-    background-color: $c-blu;
-    border: none;
-    height: 0.06rem;
-    width: 30%;
-    margin: 0 auto;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-}
