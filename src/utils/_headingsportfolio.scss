@@ -15,7 +15,7 @@ body{
 }
 @media only screen and (min-width: 960px){
    .parrafo{
-        margin-left: 6.875rem;
+        margin: 0 auto;
     }
 }
 .pbold{
@@ -37,7 +37,7 @@ body{
     }
 }
 .plight{
-    font-family: Lato, sans-serif;
+    font-family: futura-pt-bold, sans-serif;
     font-size: 1rem;
     font-weight: lighter;
     line-height: 1.5rem;
@@ -59,14 +59,13 @@ body{
     color: $c-blu;
     font-weight: bold;
     font-size: 36px;
-    margin-left: 1.25rem;
     text-align: center;
     
 }
 @media only screen and (min-width: 768px){
     .titulo{
         font-size: 2.25rem;
-        margin-left: 3.125rem;
+        margin: 0 auto;
     }
 }
 @media only screen and (min-width: 960px){
@@ -74,7 +73,7 @@ body{
         margin-bottom: 4rem;
     }
 }
-.latoh3{
+.big{
     font-family:futura-pt-bold, sans-serif;
     font-size: 1.25rem;
     font-weight: lighter;
@@ -82,27 +81,56 @@ body{
     margin-top: 0;
     margin-bottom: 0.625rem;
     color: $c-blu;
-    
+}
+@media only screen and (min-width: 768px){
+    .big{
+        font-size: 2rem;
+        line-height: 2.625rem;
+    }
+}
+@media only screen and (min-width: 960px){
+    .big{
+        font-size: 3rem;
+        line-height: 3.625rem;
+    }
+}
+.latoh3{
+    font-family:futura-pt-bold, sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 1.875rem;
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+    color: $c-blu;  
 }
 @media only screen and (min-width: 768px){
     .latoh3{
-        font-size: 1.75rem;
+        font-size: 24px;
         line-height: 2.625rem;
+    }
+}
+@media only screen and (min-width: 960px){
+    .latoh3{
+        font-size: 24px;
+        line-height: 3.625rem;
     }
 }
 
 .subtitle {
     font-family: futura-pt-bold, sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: auto;
     letter-spacing: 3px;
     margin-bottom: 0px;
     color: $c-blu;
+    
+
+    
 }
 @media only screen and (min-width: 768px){
     .subtitle{
-        font-size: 1.5rem;
+        font-size: 3rem;
         margin-bottom: 0px;
     }
 }

@@ -20,7 +20,7 @@
 }
 .img-proyecto{
     display: flex;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0 auto;
    
@@ -49,7 +49,7 @@
 }
 @media screen and (min-width: $MQ-L){
     .caja-ficha{ 
-        margin-top: 0;
+        margin: 0;
         padding: 0 3rem;
     }
     .row{
@@ -58,22 +58,21 @@
 }
 .text-boton{
     font-family: Playfair Display, serif;
-    font-weight: 100;
+    font-weight: 300;
     padding: 15px 30px;
-    background-color: $c-blu;
     border-radius: 50px;
-    font-size: 14px;
     color: $c-nude;
+    font-size: 14px;
+    border: solid 1px $c-nude;
     text-align: center;
-    margin: 3rem auto;
+    margin: 0 auto;
 }
 .text-boton:hover{
-    color: $c-blu;
+    color: #ffffff;
     background-color: $c-nude;
 }
 @media screen and (min-width: $MQ-M){
     .text-boton{
-        top: 8.3rem;
         font-size: 1.125rem;
     }
 }
