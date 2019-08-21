@@ -1,6 +1,10 @@
-@media screen and (min-width: $MQ-L){
 .container-project{
     margin-bottom:6rem;
+    margin-top: 5rem;
+    }
+@media screen and (min-width: $MQ-L){
+.container-project{
+    margin-top: 0;
     }
 }
 .caja-proyecto{

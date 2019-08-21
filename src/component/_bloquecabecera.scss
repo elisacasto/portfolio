@@ -48,7 +48,7 @@
 .bloque-cabecera{
     margin-bottom: 1rem;
     align-items: center;
-    max-width: 80%;
+    
     
 }
 @media only screen and (min-width: $MQ-M){
@@ -56,6 +56,7 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
+        max-width: 80%;
     }
 }
 
@@ -66,11 +67,6 @@
     .bloque-rool{
         margin: 0 auto;
         width: 30rem;
-    }
-}
-@media only screen and (min-width: $MQ-L){
-    .bloque-rool{
-        margin-right: 6.125rem;
     }
 }
 .logo{
@@ -85,7 +81,7 @@
     }
 }
 .foto-perfile{
-    width: 14rem;
+    width: auto;
     height: 17.125rem;
     padding-top: 0.8rem; 
     margin: 0 auto;
