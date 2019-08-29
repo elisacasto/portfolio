@@ -7,33 +7,19 @@ body{
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
     margin-left: 1.25rem;
-}
-@media only screen and (min-width: 768px){
-    .parrafo{
-        margin-left: 3.125rem;
-    }
-}
-@media only screen and (min-width: 960px){
-   .parrafo{
-        margin: 0 auto;
-    }
+    margin: 0 auto;
 }
 .pbold{
-    font-family: PlayfairDisplay, serif;
+    font-family: futura-pt-bold, sans-serif;
     font-weight: bold;
     font-size: 1rem;
     margin-top: 0;
     margin-left: 1.2rem;
+    color: $c-grey;
 }
 @media only screen and (min-width: 768px){
     .pbold{
         font-size: 1.25rem;
-        margin-left: 3.125rem; 
-    }
-}
-@media only screen and (min-width: 960px){
-    .pbold{
-        margin-left: 6.875rem; 
     }
 }
 .plight{
@@ -47,16 +33,12 @@ body{
     .plight{
         font-size: 1.25rem;
     }
-}
-@media only screen and (min-width: 960px){
-    .plight{
-        margin-left: 6.875rem; 
-    }
+
 }
 .titulo{
     font-family: futura-pt-bold, sans-serif;
     letter-spacing: 3px;
-    color: $c-blu;
+    color:$c-grey;
     font-weight: bold;
     font-size: 36px;
     text-align: center;
@@ -66,6 +48,7 @@ body{
     .titulo{
         font-size: 2.25rem;
         margin: 0 auto;
+        margin-bottom: 4rem;
     }
 }
 @media only screen and (min-width: 960px){
@@ -75,23 +58,23 @@ body{
 }
 .big{
     font-family:futura-pt-bold, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: lighter;
-    line-height: 1.875rem;
+    line-height: 2.25rem;
     margin-top: 0;
     margin-bottom: 0.625rem;
     color: $c-blu;
 }
 @media only screen and (min-width: 768px){
     .big{
-        font-size: 2rem;
-        line-height: 2.625rem;
+        font-size: 3rem;
+        line-height:4rem;
     }
 }
 @media only screen and (min-width: 960px){
     .big{
         font-size: 3rem;
-        line-height: 3.625rem;
+        line-height: 4rem;
     }
 }
 .latoh3{
@@ -101,7 +84,7 @@ body{
     line-height: 1.875rem;
     margin-top: 0;
     margin-bottom: 0.625rem;
-    color: $c-blu;  
+    color: $c-grey;  
 }
 @media only screen and (min-width: 768px){
     .latoh3{
@@ -123,7 +106,7 @@ body{
     line-height: auto;
     letter-spacing: 3px;
     margin-bottom: 0px;
-    color: $c-blu;
+    color: $c-grey;
     
 
     

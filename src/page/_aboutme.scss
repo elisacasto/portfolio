@@ -13,14 +13,14 @@
     }
 }
 .experience-container{
-    margin-top: 5.5rem;    
+    margin-top: 3rem;    
 }
 @media only screen and (min-width: $MQ-L){
     .experience-container{
         display: flex;
         margin-bottom:8rem; 
         max-width: 1024px;
-        margin: 10rem  auto;
+        margin: 3rem  auto;
     }
 }
 .items{
@@ -44,14 +44,16 @@
     margin-bottom: 0rem;
 }
 .grado{ 
-    margin-top: 0rem;   
+    margin-top: 0rem;
+    margin-left: 1.25rem;
 }
 .fecha{
     margin-top: -4rem;
-     
+    margin-left: 1.3rem;
 }
+
 .v{
-    background: $c-blu;
+    background: $c-grey;
     width: 2px;
     height: 2.6rem;
     margin-top:-3.9rem;
@@ -60,16 +62,11 @@
 @media only screen and (min-width: $MQ-M){
     .v{
         margin-top:-4.2rem;
-        margin-left:6.5rem;
+        margin-left:4.5rem;
     }
-}
-@media only screen and (min-width: $MQ-L){
-    .v{
-        margin-left:10.2rem;
-    }
+
 }
 .container-blue{
-    margin-top: 111px;
     background: #f5f5f5;
     margin-top: 4rem;
 }
@@ -78,6 +75,9 @@
         display: block; 
         background: transparent;
         margin: 0;
+    }
+    .container-blue{
+        margin-top: 0;
     }
 }
 .container{
@@ -99,7 +99,7 @@
 }
 @media only screen and (min-width: $MQ-L){
     .job{
-        color: $c-blu;
+        color: $c-grey;
     }
 }
 .skills{
@@ -125,7 +125,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        background: $c-blu;
+        background: #f5f5f5;
     }
 }
 .downloadcv{
@@ -171,5 +171,6 @@ margin: 0;
 @media screen and (min-width: $MQ-L){
     .containe{
         padding:0;
+        margin-left:8rem; 
     }
 }
