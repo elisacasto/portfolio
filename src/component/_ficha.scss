@@ -39,6 +39,15 @@
         margin: 0px;
     }
 }
+.header_proyecto{
+    display: flex;
+    width: 90%;
+    height: 500px;
+    margin: 5rem auto;
+    object-fit: cover;
+    border-radius: 50px; 
+
+}
 .caja-ficha{
     height: 10.5rem;
     text-align: center;
