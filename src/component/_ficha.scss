@@ -43,7 +43,7 @@
     display: flex;
     width: 90%;
     height: 500px;
-    margin: 5rem auto;
+    margin: 1rem auto 0;
     object-fit: cover;
     border-radius: 50px; 
 
@@ -74,15 +74,17 @@
     font-weight: 300;
     padding: 15px 30px;
     border-radius: 50px;
-    color: $c-nude;
+    color: #ffffff;
+    background-color: $c-nude;
     font-size: 14px;
-    border: solid 1px $c-nude;
+    
     text-align: center;
     margin: 0 auto;
 }
 .text-boton:hover{
-    color: #ffffff;
-    background-color: $c-nude;
+    color: $c-nude;
+    border: solid 1px $c-nude;
+    background-color: transparent;
 }
 @media screen and (min-width: $MQ-M){
     .text-boton{

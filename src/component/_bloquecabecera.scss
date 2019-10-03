@@ -1,6 +1,6 @@
 .hero{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: auto;
 }
 .rshero{
@@ -62,6 +62,7 @@
 
 .bloque-rool{
     width: 16rem;
+    margin-left: 5%;
 }
 @media only screen and (min-width: $MQ-M){
     .bloque-rool{

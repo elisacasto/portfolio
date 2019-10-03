@@ -1,8 +1,8 @@
 .nav{
     justify-content: center;
     display: flex;
-    font-family: PlayfairDisplay, serif;
-    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
     padding:0;
 }
 @media only screen and (min-width: $MQ-M){
@@ -12,9 +12,11 @@
     margin-right: 3.125rem;
     padding-top: 1.5rem;
     }
+    
 }
 @media only screen and (min-width: $MQ-L){
     .nav{
+        justify-content: flex-end;
         margin-top: -5.2rem;
         margin-right: 6.875rem;
     }
@@ -40,12 +42,13 @@ ul{
     }
 }
 a{
-    font-family: Playfair Display, serif;
+    font-family: Montserrat, sans-serif;
     color: $c-blu;
     font-size: 1rem;
     display: flex;
     text-decoration: none;  
 }
+
 li{
     
     display: inline-block;

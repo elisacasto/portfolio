@@ -21,6 +21,30 @@
         margin: 3rem  auto;
     }
 }
+
+.about{
+    font-family: futura-pt-bold, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.25rem;
+    max-width: 90%;
+    text-align: left;
+    margin-bottom: 4rem;
+    margin:2rem auto;
+}
+
+@media only screen and (min-width: 768px){
+.about{
+    font-size: 1rem;
+    max-width: 50%;
+}
+}
+@media only screen and (min-width: 960px){
+.about{
+    margin: 2rem auto;
+}
+}
 .items{
     display: flex;
     flex-wrap: wrap;
