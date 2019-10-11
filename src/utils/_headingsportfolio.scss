@@ -6,8 +6,8 @@ body{
     font-size: 1rem;
     line-height: 2rem;
     margin-bottom: 1.5rem;
-    margin-left: 1.25rem;
-    margin: 0 auto;
+    /*margin-left: 1.25rem;*/
+    text-align: left;
 }
 .pbold{
     font-family: montserrat, sans-serif;
@@ -59,7 +59,7 @@ body{
 .big{
     font-family:montserrat, sans-serif;
     font-size: 1.75rem;
-    font-weight: lighter;
+    font-weight: normal;
     line-height: 2.25rem;
     margin-top: 0;
     margin-bottom: 0.625rem;

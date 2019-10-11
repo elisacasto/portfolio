@@ -23,7 +23,7 @@
 }
 
 .about{
-    font-family: futura-pt-bold, sans-serif;
+    font-family: montserrat, sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
@@ -124,16 +124,21 @@
         color: $c-grey;
     }
 }
+.holder{
+    padding-left: 30px;
+}
 .skills{
     display: flex;
+    padding-left: 30px; 
 }
-.lenguage{
-    flex-direction:column;
+@media screen and (min-width: $MQ-M){
+    .skills{
+     padding-left: 30px; 
+    }
 }
-@media only screen and (min-width: $MQ-L){
-    .lenguage{
-        display: flex;
-        flex-wrap: wrap;
+@media screen and (min-width: $MQ-L){
+    .skills{
+     padding-left: 0px; 
     }
 }
 @media only screen and (min-width: $MQ-L){
@@ -188,7 +193,7 @@ margin: 0;
     }
 }
 .containe{
-    padding: 2rem 0;
+    padding: 2rem 30px;
 }
 @media screen and (min-width: $MQ-L){
     .containe{
