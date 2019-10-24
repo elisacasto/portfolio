@@ -42,11 +42,13 @@
 .header_proyecto{
     display: flex;
     width: 90%;
-    height: 500px;
     margin: 1rem auto 0;
-    object-fit: cover;
     border-radius: 50px; 
-
+}
+@media screen and (min-width: $MQ-M){
+    .header_proyecto{
+        width: 70%;
+    }
 }
 .caja-ficha{
     height: 10.5rem;
@@ -63,7 +65,7 @@
 @media screen and (min-width: $MQ-L){
     .caja-ficha{ 
         margin: 0;
-        padding: 0 3rem;
+        padding: 0 9rem;
     }
     .row{
         flex-direction: row-reverse;

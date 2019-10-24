@@ -55,7 +55,7 @@
     .bloque-cabecera{
         display: flex;
         flex-wrap: wrap;
-        margin: 0 auto;
+        margin: 5% auto;
         max-width: 80%;
     }
 }
@@ -90,7 +90,7 @@
 }
 @media only screen and (min-width: $MQ-M){
     .foto-perfile{ 
-        padding: 3.5rem 0 0 2rem;
+        padding: 0 0 0 2rem;
         width: 27.25rem;
         height: 27.8125rem;
         margin: 0 auto;

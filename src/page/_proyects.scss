@@ -52,7 +52,7 @@
    
 }
 .photoweb{
-    width: 90%;
+    width: 100%;
     margin-bottom: 4rem;
 }
 @media screen and (min-width: $MQ-M){
@@ -68,9 +68,8 @@
     }
     .photoweb{
         vertical-align: top;
-        width: 70%;
+        width: 60%;
         height: auto;
-        margin-right: 2rem;
     }
 }
 
