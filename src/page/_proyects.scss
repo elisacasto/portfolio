@@ -97,24 +97,3 @@
         max-width: 50%;
     }
 }
-.back-portfolio{
-    margin:4rem 0;
-    display: flex;
-    margin-left: 1.25rem;
-}
-@media only screen and (min-width: 768px){
-    .back-portfolio{
-        margin-left: 3.125rem;
-    }
-}
-@media only screen and (min-width: 960px){
-    .back-portfolio{
-        margin-left: 6.875rem;
-    }
-}
-.flecha-back{
-    width: 1.8rem;
-    height: 1rem;
-    margin-right: 1rem;
-    transform: rotate(90deg);
-}
