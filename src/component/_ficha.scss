@@ -19,7 +19,7 @@
     .caja-proyecto{
         display:flex;
         justify-content: center;
-        padding: 0 10rem;
+        padding: 0 7rem;
     }
 }
 .img-proyecto{
@@ -41,13 +41,15 @@
 }
 .header_proyecto{
     display: flex;
-    width: 98%;
-    margin: 1rem auto 0;
+    width: 100%;
+    margin: 1rem auto 5rem;
     border-radius: 50px; 
 }
 @media screen and (min-width: $MQ-M){
     .header_proyecto{
-        width: 70%;
+        width: 90%;
+        height: 80vh;
+        object-fit: cover
     }
 }
 .caja-ficha{
@@ -65,7 +67,7 @@
 @media screen and (min-width: $MQ-L){
     .caja-ficha{ 
         margin: 0;
-        padding: 0 9rem;
+        padding: 0 4rem;
     }
     .row{
         flex-direction: row-reverse;

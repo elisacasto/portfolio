@@ -35,11 +35,11 @@
     width: 90%;
     
 }
-@media screen and (min-width: $MQ-M){
+/*@media screen and (min-width: $MQ-M){
     .ficha-proyecto{
         width: 33.75rem;
     }
-}
+}*/
 @media screen and (min-width: $MQ-L){
     .ficha-proyecto{ 
         margin-top: 0;
@@ -54,6 +54,7 @@
 .photoweb{
     width: 100%;
     margin-bottom: 4rem;
+    margin: 0 auto;
 }
 @media screen and (min-width: $MQ-M){
     .gallery{
@@ -70,6 +71,27 @@
         vertical-align: top;
         width: 60%;
         height: auto;
+        margin: 10rem auto 0; 
+    }
+}
+.box_role{
+    margin: 4rem auto;
+}
+.photorole{
+    width: 100%;
+    margin: 0 auto;
+}
+@media screen and (min-width: $MQ-M){
+    
+    .box_role{
+        width: 90%;
+        display: flex;
+        margin: 10rem auto;
+        align-items: center;
+    }
+    .photorole{
+        width: 50%;
+        height: 30%;
     }
 }
 
@@ -79,21 +101,19 @@
     margin-top: 3rem;
 }
 .description{
-    margin: 0 auto;
+    margin: 6rem auto;
     width: 80%;
-    padding: 2rem 0;
     text-align: left;
 }
 @media screen and (min-width: $MQ-M){
     .description{
         padding: 0;
         width: 50%;
-        margin-top: 4.4rem;
-        margin-bottom: 4.4rem;
-    }
+        margin: 10rem auto;
 }
+ }
 @media screen and (min-width: $MQ-L){
     .description{ 
         max-width: 50%;
     }
-}
+ }
