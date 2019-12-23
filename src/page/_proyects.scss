@@ -30,7 +30,7 @@
 .ficha-proyecto{
     text-align: center;
     margin: 0 auto;
-    padding: 2rem 1rem 0;
+    padding: 0 1rem 0;
     margin-bottom: 2rem;
     width: 90%;
     
@@ -92,6 +92,7 @@
     .photorole{
         width: 50%;
         height: 30%;
+        margin-left: 3rem;
     }
 }
 
@@ -115,5 +116,32 @@
 @media screen and (min-width: $MQ-L){
     .description{ 
         max-width: 50%;
+    }
+ }
+
+ 
+.finalphotos{
+    margin: 0 auto;
+    width: 90%;
+    justify-content: center;
+}
+.finalphoto{
+    width: 100%;
+    margin: 0 1rem;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 3rem;
+}
+@media screen and (min-width: $MQ-L){
+    .finalphotos{ 
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .finalphoto{
+        width: 40%;
+        margin: 0 1rem 3rem;
+        height: 100%;
+        
     }
  }
