@@ -53,7 +53,14 @@ a{
     display: flex;
     text-decoration: none;  
 }
-
+.none{
+    display: none !important
+}
+@media only screen and (min-width: $MQ-M){
+    .none{
+       display: flex !important;
+    }
+}
 li{
     
     display: inline-block;
