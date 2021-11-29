@@ -1,49 +1,48 @@
-
-@media only screen and (min-width: $MQ-M){
-    .container-contacto{
-        display: flex;
-    }
-}
-.caja-contacto{
+@media only screen and (min-width: $MQ-M) {
+  .container-contacto {
     display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    margin: 0 auto;
+  }
 }
-@media only screen and (min-width: $MQ-M){
-    .caja-contacto{
-        margin-top: 3rem;
-        width: 30rem;
-        height: 30rem;
-    }
+.caja-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
 }
-.texto-contacto{
-    text-align: left;
-    margin: 0 auto;
-    margin-top: 1.6rem;
+@media only screen and (min-width: $MQ-M) {
+  .caja-contacto {
+    margin-top: 3rem;
+    width: 30rem;
+    height: 30rem;
+  }
 }
-.contact{
-    padding-bottom: 0.8rem;
-    padding-right: 1rem;
+.texto-contacto {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 1.6rem;
 }
-.social{
-    display: flex;
-    flex-direction: column;
+.contact {
+  padding-bottom: 0.8rem;
+  padding-right: 1rem;
 }
-.inst{
-    display: flex;
+.social {
+  display: flex;
+  flex-direction: column;
 }
-.contacto-social{
-    display: flex;
+.inst {
+  display: flex;
 }
-.links{
-    margin: 0;
+.contacto-social {
+  display: flex;
 }
-.link{
-    font-family: montserrat, sans-serif;
-    text-decoration: none;
-    margin-top: 0 !important;
+.links {
+  margin: 0;
 }
-.link :hover{
-    color: $c-nude;
+.link {
+  font-family: montserrat, sans-serif;
+  text-decoration: none;
+  margin-top: 0 !important;
+}
+.link :hover {
+  color: $c-nude;
 }

@@ -1,20 +1,18 @@
-
-.container-work{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;  
-    margin-top:rem;
+.container-work {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: rem;
 }
-@media screen and (min-width: $MQ-M){
-    .center{
-        margin: auto;
-    }
-}
-
-   
-.work{
+@media screen and (min-width: $MQ-M) {
+  .center {
     margin: auto;
+  }
 }
-.padding{
-    padding-top: 3rem;
+
+.work {
+  margin: auto;
+}
+.padding {
+  padding-top: 3rem;
 }

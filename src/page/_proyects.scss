@@ -1,165 +1,154 @@
-.container-proyecto{
-    margin: 0 auto;
+.container-proyecto {
+  margin: 0 auto;
 }
-.projects{
-    margin-top: 3.875rem;
+.projects {
+  margin-top: 3.875rem;
 }
-@media screen and (min-width: $MQ-L){
-    .projects{ 
-        margin-top: 7rem;
-    }
+@media screen and (min-width: $MQ-L) {
+  .projects {
+    margin-top: 7rem;
+  }
 }
-.container-work{
-    display: flex;
+.container-work {
+  display: flex;
 }
-.event{
-    margin-top: 5rem;
-    margin-left: 1.25rem;
-    margin-bottom: 0;
+.event {
+  margin-top: 5rem;
+  margin-left: 1.25rem;
+  margin-bottom: 0;
 }
-@media only screen and (min-width: $MQ-M){
-    .event{
-        margin-left: 3.125rem;
-    }
+@media only screen and (min-width: $MQ-M) {
+  .event {
+    margin-left: 3.125rem;
+  }
 }
-@media only screen and (min-width: $MQ-L){
-    .event{
-        margin-left: 6.875rem;
-    }
+@media only screen and (min-width: $MQ-L) {
+  .event {
+    margin-left: 6.875rem;
+  }
 }
-.ficha-proyecto{
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 1rem 0;
-    margin-bottom: 2rem;
-    width: 90%;
-    
+.ficha-proyecto {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 1rem 0;
+  margin-bottom: 2rem;
+  width: 90%;
 }
 /*@media screen and (min-width: $MQ-M){
     .ficha-proyecto{
         width: 33.75rem;
     }
 }*/
-@media screen and (min-width: $MQ-L){
-    .ficha-proyecto{ 
-        margin-top: 0;
-    }
+@media screen and (min-width: $MQ-L) {
+  .ficha-proyecto {
+    margin-top: 0;
+  }
 }
-.gallery{
-    width: 100%;
-    height: auto;
+.gallery {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.photoweb {
+  width: 100%;
+  margin-bottom: 4rem;
+  margin: 0 auto;
+}
+@media screen and (min-width: $MQ-M) {
+  .gallery {
+    transform: translateX(100px);
     margin: 0 auto;
-   
-}
-.photoweb{
-    width: 100%;
-    margin-bottom: 4rem;
+    width: 568px;
+  }
+  .photosweb {
+    max-width: 1170px;
     margin: 0 auto;
-}
-@media screen and (min-width: $MQ-M){
-    .gallery{
-        transform: translateX(100px);
-        margin: 0 auto;
-        width: 568px;
-    }
-    .photosweb{
-        max-width: 1170px;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .photoweb{
-        vertical-align: top;
-        width: 90%;
-        height: auto;
-        margin: 10rem auto 0; 
-    }
-}
-.box_role{
-    margin: 4rem auto;
-}
-.photorole{
-    width: 100%;
-    margin: 0 auto;
-}
-@media screen and (min-width: $MQ-M){
-    
-    .box_role{
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10rem auto;
-        align-items: center;
-    }
-    .photorole{
-        width: 90%;
-        height: 30%;
-        margin: 0 auto;
-    }
-}
-@media screen and (min-width: $MQ-L){
-    
-    .box_role{
-        display: flex;
-        flex-wrap: nowrap;
-        margin: 10rem auto;
-        align-items: center;
-    }
-    .photorole{
-        width: 50%;
-        height: 30%;
-        margin-left: 3rem;
-    }
-    .photoweb{
-        width: 60%;
-    }
-}
-.texto-description{
-    background:#f5f5f5;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    border-radius: 23px;
-}
-.description{
-    margin: 6rem auto;
-    width: 80%;
-    text-align: left;
-}
-@media screen and (min-width: $MQ-M){
-    .description{
-        padding: 0;
-        width: 60%;
-        margin: 10rem auto;
-}
- }
-@media screen and (min-width: $MQ-L){
-    .description{ 
-        max-width: 60%;
-    }
- }
-
- 
-.finalphotos{
-    margin: 0 auto;
+    text-align: center;
+  }
+  .photoweb {
+    vertical-align: top;
     width: 90%;
-    justify-content: center;
+    height: auto;
+    margin: 2rem auto 0;
+  }
 }
-.finalphoto{
-    width: 100%;
-    margin: 0 1rem;
+.box_role {
+  margin: 4rem auto;
+}
+.photorole {
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: $MQ-M) {
+  .box_role {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10rem auto;
+    align-items: center;
+  }
+  .photorole {
+    width: 90%;
+    height: 30%;
     margin: 0 auto;
-    height: 100%;
-    margin-bottom: 3rem;
+  }
 }
-@media screen and (min-width: $MQ-L){
-    .finalphotos{ 
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .finalphoto{
-        width: 40%;
-        margin: 0 1rem 3rem;
-        height: 100%;
-        
-    }
- }
+@media screen and (min-width: $MQ-L) {
+  .box_role {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5rem auto;
+    align-items: center;
+  }
+  .photorole {
+    width: 50%;
+    height: 30%;
+    margin-left: 3rem;
+  }
+  .photoweb {
+    width: 60%;
+  }
+}
+.texto-description {
+  background: #f5f5f5;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  border-radius: 23px;
+  padding: 3rem 0;
+}
+.description {
+  margin: 2rem auto;
+  width: 80%;
+  text-align: left;
+}
+@media screen and (min-width: $MQ-M) {
+  .description {
+    padding: 0;
+    width: 60%;
+  }
+}
+@media screen and (min-width: $MQ-L) {
+  .description {
+    max-width: 60%;
+  }
+}
+
+.finalphotos {
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+}
+.finalphoto {
+  width: 100%;
+  margin: 0 1rem;
+  margin: 0 auto;
+  height: 100%;
+}
+@media screen and (min-width: $MQ-L) {
+  .finalphotos {
+    width: 100%;
+  }
+  .finalphoto {
+    height: 100%;
+  }
+}
