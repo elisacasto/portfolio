@@ -152,6 +152,9 @@
   margin-bottom: 24px;
   width: 100%;
   height: auto;
+  @media screen and (min-width: $MQ-L) {
+    width: 398px;
+  }
 }
 .fecha_item {
   width: 44px;
