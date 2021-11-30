@@ -12,12 +12,11 @@
     font-size: 3rem;
   }
 }
-
 @media only screen and (min-width: $MQ-L) {
   .experience-container {
     display: flex;
     flex-direction: row;
-    max-width: 1024px;
+    max-width: 70%;
     margin: 3rem auto;
     justify-content: space-between;
   }
@@ -51,7 +50,7 @@
   flex-wrap: wrap;
 }
 
-.v {
+/*.v {
   background: $c-grey;
   width: 2px;
   height: 2.6rem;
@@ -63,7 +62,7 @@
     margin-top: -4.2rem;
     margin-left: 4.5rem;
   }
-}
+}*/
 .container-grey {
   background: #f5f5f5;
   margin-top: 4rem;
@@ -73,7 +72,7 @@
   display: block;
   background: #f5f5f5;
   margin-top: 56px;
-  padding: 25px 0;
+  padding: 56px 25px;
 }
 @media only screen and (min-width: $MQ-L) {
   .container-gost {
@@ -158,6 +157,9 @@
 .fecha_item {
   width: 44px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .line {
   background-color: black;
@@ -169,9 +171,11 @@
   width: 80%;
   height: 100%;
 }
+.box_item {
+  max-width: 334px;
+  margin: auto;
+}
 .container_fecha {
-  display: flex;
-  flex-direction: column;
 }
 .info_item {
   width: auto;
