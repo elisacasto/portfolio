@@ -16,7 +16,7 @@
   .experience-container {
     display: flex;
     flex-direction: row;
-    max-width: 70%;
+    max-width: 1024px;
     margin: 3rem auto;
     justify-content: space-between;
   }
@@ -37,12 +37,12 @@
 @media only screen and (min-width: $MQ-M) {
   .about {
     font-size: 1rem;
-    max-width: 70%;
   }
 }
 @media only screen and (min-width: $MQ-L) {
   .about {
     margin: 2rem auto;
+    max-width: 1024px;
   }
 }
 .items {
@@ -109,7 +109,6 @@
 .container_skills {
   display: flex;
   flex-direction: column;
-  padding-left: 25px;
 }
 @media screen and (min-width: $MQ-L) {
   .container_skills {
