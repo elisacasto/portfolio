@@ -1,113 +1,405 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-   <meta charset="ytf-8">
+   <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="stylesheet" href="dist/index.css">
-   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-   <link rel="shortcut icon" href="img/logohead.png" type="image/ico" />
-   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <title> Elisa Casto - UX/UI Designer</title>
+   <title> Elisa Casto UX/UI </title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link href="/src/output.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-champagne h-auto min-w-full">
    <header>
-      <div class="header">
-         <a href="index.html"><img class="logo-header" src="img/logo.png" alt="logo Elisa Casto"></a>
-         <div class="nav">
-            <ul>
-               <li><a class="menuabout" href="./aboutme.html">About me</a></li>
-               <li><a class="menuworks" href="./works.html">Works</a></li>
-               <li><a class="menucontact" href="./contacto.html">Contact</a></li>
+      <nav class="flex justify-between items-center px-6 py-6 md:px-20 2xl:px-56 md:py-11">
+         <a href='index.html'><img src="src/image/logo.svg" alt=""></a>
+         <div class="flex w-full justify-end">
+            <div class="text-grey_dark_dark font-poppins text-[14px] pr-6 md:pr-14 md:text-[21px]">
+               PROJECT
+            </div>
+            <div class="text-grey_dark_dark font-poppins text-[14px] pr-6 md:pr-14 md:text-[21px]">
+               ABOUT ME
+            </div>
+            <div class="text-grey_dark_dark font-poppins text-[14px] md:text-[21px]">
+               CONTACT
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <div class="flex flex-col pt-16 pb-20 w-full justify-center">
+      <div class="z-10 flex flex-wrap font-poppins font-semibold
+          text-[32px] md:text-[64px] lg:text-[80px] pl-4 md:px-20 2xl:px-56 text-grey_dark_dark w-full max-w-[1440px]">
+         Hi, I'm Elisa
+      </div>
+      <div class='z-10 h-[1px] bg-white'></div>
+      <div
+         class='z-10 font-poppins font-semibold text-[32px] md:text-[64px] lg:text-[80px] px-6 md:px-20 2xl:px-56 py-4 md:py-4 text-grey_dark_dark'>
+         a UX/UI designer </div>
+      <div class='z-10 h-[1px]  bg-white'></div>
+      <div class='z-10 px-6 py-4 md:py-10 md:px-20 2xl:px-56 flex items-center'>
+         <div
+            class='font-poppins font-semibold text-[32px] md:text-[64px] lg:text-[80px] w-auto h-auto text-grey_dark_dark'>
+            with
+         </div>
+         <img class="pl-2.5 w-[248px] md:w-[490px] lg:w-[620px]" src="src/image/vibes.svg" alt="">
+      </div>
+      <div class="w-fill h-fill flex justify-start position: absolute">
+         <img class="w-2/2" src="src/image/circle.svg" alt="">
+      </div>
+      <div class="flex pt-10 md:pt-16 px-6 md:px-20 2xl:px-56">
+         <div class='flex  items-center'>
+            <a href='https://www.linkedin.com/in/elisa-casto-uiuxdesigner/'
+               class='z-10 w-auto px-3 font-poppins font-light text-[18px] md:text-[24px] hover:text-orange text-grey_dark_dark'>LINKEDIN</a>
+            <img class='z-10 h-6 w-6' src="src/image/arrow.svg" alt="">
+         </div>
+         <div class='flex px-20 items-center'>
+            <a href='https://www.linkedin.com/in/elisa-casto-uiuxdesigner/'
+               class='z-10 w-auto px-3 font-poppins font-light text-[18px] md:text-[24px] hover:text-orange text-grey_dark_dark'>GMAIL</a>
+            <img class='z-10 h-6 w-6' src="src/image/arrow.svg" alt="">
+         </div>
+      </div>
+   </div>
+
+
+   <div class=" w-full md:w-full mx-0 pb-6 md:pb-16 py-14 md:py-28">
+      <div class='h-[1px] bg-white'></div>
+      <div x-data="{}" x-init="$nextTick(() => {
+           let ul = $refs.logos;
+           ul.insertAdjacentHTML('afterend', ul.outerHTML);
+           ul.nextSibling.setAttribute('aria-hidden', 'true');
+       })" class="w-full inline-flex flex-nowrap overflow-hidden">
+         <ul
+            class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll">
+            <li>
+               <img class="w-24 md:w-44 lg:w-56" src="src/image/last.svg" alt="">
+            </li>
+            <li>
+               <div
+                  class='font-poppins font-bold text-[40px] md:text-[80px] lg:text-[100px] text-grey_dark_dark md:items-baseline'>
+                  PROJECT</div>
+            </li>
+            <li>
+               <img class="w-8 md:w-20" src="src/image/face.svg" alt="">
+            </li>
+         </ul>
+         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+            aria-hidden="true">
+            <li>
+               <img class="w-24 md:w-44 lg:w-56" src="src/image/last.svg" alt="">
+            </li>
+            <li>
+               <div
+                  class='font-poppins font-bold text-[40px] md:text-[80px] lg:text-[100px] text-grey_dark_dark md:items-baseline'>
+                  PROJECT</div>
+            </li>
+            <li>
+               <img class="w-8 md:w-20" src="src/image/face.svg" alt="">
+            </li>
+         </ul>
+         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+            aria-hidden="true">
+            <li>
+               <img class="w-24 md:w-44 lg:w-56" src="src/image/last.svg" alt="">
+            </li>
+            <li>
+               <div
+                  class='font-poppins font-bold text-[40px] md:text-[80px] lg:text-[100px] text-grey_dark_dark md:items-baseline'>
+                  PROJECT</div>
+            </li>
+            <li>
+               <img class="w-8 md:w-20" src="src/image/face.svg" alt="">
+            </li>
+         </ul>
+      </div>
+      <div class=' h-[1px] w-full bg-white'></div>
+   </div>
+
+
+
+
+   <div class='w-fill h-fill position: absolute'>
+      <img class="w-2/3" src="src/image/circle_acciona.svg" alt="">
+   </div>
+   <div class="w-full h-full px-6 py-8 md:py-20 md:px-20 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
+      <img class="z-10 w-[327px] lg:w-[450px] md:pr-4" src="src/image/acciona.svg" alt="">
+      <div class='z-10 max-w-[700px] md:pl-4 py-8'>
+         <div class="flex justify-between w-full pb-6">
+            <div class="font-poppins font-light text-grey_dark_dark text-[16px] md:text-[18px]">UX/UI PROJECT |
+               ACCIONA
+            </div>
+            <div class="font-poppins font-light text-grey_dark_dark text-[18px]">2022</div>
+         </div>
+         <div class=' h-[1px] w-full bg-white'></div>
+         <div class="font-poppins font-bold text-grey_dark_dark text-[21px] md:text-[40px] py-2">Research and design of
+            Acciona's
+            new digital rental product</div>
+         <div class=' h-[1px] w-full bg-white'></div>
+         <a href='Acciona.html'>
+            <div class="flex pt-4 items-baseline w-full justify-between">
+               <div
+                  class='z-10 pt-2 pr-3 w-auto h-auto font-poppins font-light text-[18px] md:text-[24px] hover:text-orange text-grey_dark_dark'>
+                  SEE PROJECT
+               </div>
+               <img class='z-10 w-6 h-6' src="src/image/arrow.svg" alt="">
+            </div>
+         </a>
+      </div>
+   </div>
+   <div class='z-10 h-[1px] bg-white'></div>
+
+
+   <div class='w-fill h-fill position: absolute'>
+      <img class="w-2/3" src="src/image/circle_metro.svg" alt="">
+   </div>
+   <div
+      class="z-10 w-full h-full px-6 py-8 md:py-20 md:px-20 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
+      <img class="z-10 w-[327px] lg:w-[450px] md:pr-4" src="src/image/metro.svg" alt="">
+      <div class='z-10 max-w-[700px] md:pl-4 py-8'>
+         <div class="flex justify-between w-full pb-6">
+            <div class="font-poppins font-light text-grey_dark_dark text-[16px] md:text-[18px]">UX PROJECT | METRO
+               MACHINE
+            </div>
+            <div class="font-poppins font-light text-grey_dark_dark text-[18px]">2021</div>
+         </div>
+         <div class='z-10 h-[1px] w-full bg-white'></div>
+         <div class="font-poppins font-bold text-grey_dark_dark text-[21px] lg:text-[40px] py-2">Research to improve the
+            user
+            experience of the Madrid Metro machines</div>
+         <div class='z-10 h-[1px] w-full bg-white'></div>
+         <a href='metro.html'>
+            <div class="flex pt-4 items-baseline w-full justify-between">
+               <div
+                  class='z-10 pt-2 pr-3 w-auto h-auto font-poppins font-light text-[18px] md:text-[24px] hover:text-orange text-grey_dark_dark'>
+                  SEE PROJECT
+               </div>
+               <img class='z-10 w-6 h-6' src="src/image/arrow.svg" alt="">
+            </div>
+         </a>
+      </div>
+   </div>
+
+   <div class='z-10 h-[1px] bg-white'></div>
+
+
+   <div class='w-fill h-fill position: absolute'>
+      <img class="w-2/3" src="src/image/circle_madrid.svg" alt="">
+   </div>
+   <div
+      class="z-10 w-full h-full px-6 py-8 md:py-32 md:px-20 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
+      <img class="z-10 w-[327px] lg:w-[450px] md:pr-4" src="src/image/madrid.svg" alt="">
+      <div class='z-10 max-w-[700px] md:pl-4 py-8'>
+         <div class="flex justify-between w-full pb-6">
+            <div class="font-poppins font-light text-grey_dark_dark text-[16px] md:text-[18px]">UX/UI PROJECT |
+               MADRID360
+            </div>
+            <div class="font-poppins font-light text-grey_dark_dark text-[18px]">2021</div>
+         </div>
+         <div class='z-10 h-[1px] w-full bg-white'></div>
+         <div class="font-poppins font-bold text-grey_dark_dark text-[21px] lg:text-[40px] py-2">A new experience of the
+            culture,
+            art and gastronomy of Madrid at 360</div>
+         <div class='z-10 h-[1px] w-full bg-white'></div>
+         <a href='madrid.html'>
+            <div class="flex pt-4 items-baseline w-full justify-between">
+               <div
+                  class='z-10 pt-2 pr-3 w-auto h-auto font-poppins font-light text-[18px] md:text-[24px] hover:text-orange text-grey_dark_dark'>
+                  SEE PROJECT
+               </div>
+               <img class='z-10 w-6 h-6' src="src/image/arrow.svg" alt="">
+            </div>
+         </a>
+      </div>
+   </div>
+
+
+
+   <div class="bg-grey_dark_dark w-full h-auto py-14 md:py-28">
+
+
+
+
+
+      <div class="w-full md:w-full mx-0 pb-6 md:pb-16 py-14 md:py-10">
+         <div class='h-[1px] bg-white'></div>
+         <div x-data="{}" x-init="$nextTick(() => {
+              let ul = $refs.logos;
+              ul.insertAdjacentHTML('afterend', ul.outerHTML);
+              ul.nextSibling.setAttribute('aria-hidden', 'true');
+          })" class="w-full inline-flex flex-nowrap overflow-hidden">
+            <ul
+               class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll">
+               <li>
+                  <img class="w-28 md:w-72 lg:w-80" src="src/image/about.svg" alt="">
+               </li>
+               <li>
+                  <div
+                     class='font-poppins font-bold text-[40px] md:text-[80px] lg:text-[100px] text-medium md:items-baseline'>
+                     ME</div>
+               </li>
+               <li>
+                  <img class="w-8 md:w-20" src="src/image/logo_big.svg" alt="">
+               </li>
+            </ul>
+            <ul class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+               aria-hidden="true">
+               <li>
+                  <img class="w-28 md:w-72 lg:w-80" src="src/image/about.svg" alt="">
+               </li>
+               <li>
+                  <div
+                     class='font-poppins font-bold text-[40px] md:text-[80px] lg:text-[100px] text-medium md:items-baseline'>
+                     ME</div>
+               </li>
+               <li>
+                  <img class="w-8 md:w-20" src="src/image/logo_big.svg" alt="">
+               </li>
+            </ul>
+            <ul class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+               aria-hidden="true">
+               <li>
+                  <img class="w-28 md:w-72 lg:w-80" src="src/image/about.svg" alt="">
+               </li>
+               <li>
+                  <div
+                     class='font-poppins font-bold text-[40px] md:text-[80px] lg:text-[100px] text-medium md:items-baseline'>
+                     ME</div>
+               </li>
+               <li>
+                  <img class="w-8 md:w-20" src="src/image/logo_big.svg" alt="">
+               </li>
+            </ul>
+            <ul
+               class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll">
+               <li>
+                  <img class="w-28 md:w-72 lg:w-80" src="src/image/about.svg" alt="">
+               </li>
+               <li>
+                  <div
+                     class='font-poppins font-bold text-[40px] md:text-[80px] lg:text-[100px] text-medium md:items-baseline'>
+                     ME</div>
+               </li>
+               <li>
+                  <img class="w-8 md:w-20" src="src/image/logo_big.svg" alt="">
+               </li>
             </ul>
          </div>
-
+         <div class=' h-[1px] w-full bg-white'></div>
       </div>
-   </header>
-   <div class="bloque-cabecera">
 
-      <img class="foto-perfile" src="img/fotoperfile.png" alt="personal photo perfile">
-      <div class="hero">
-         <div class="rshero above">
-            <a href="https://www.instagram.com/ui_ux_elisa/"><img class="instagram" src="img/insta.png"
-                  alt="instagram's icon"></a>
-            <a href="https://www.linkedin.com/in/elisa-casto-90769814a/"><img class="linkedin" src="img/linkedin.png"
-                  alt="linkedin's icon"></a>
-            <a href="mailto:castoelisa8@gmail.com"><img class="gmail" src="img/gmail.png" alt="gmail's icon"></a>
-         </div>
-         <div class="bloque-rool">
-            <h3 class="big"></h3>
-            <h3 class="big">Hi, I’m Elisa Casto, an italian <span style="color:#ff4d5a">UI/UX designer</span> living in
-               the amazing city of Madrid.</h3>
+
+
+      <div class="w-full h-full px-4 py-8 md:px-20 2xl:px-56 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
+         <img class="z-10 w-[163px] md:w-[240px] lg:w-[310px] md:pr-4" src="src/image/photo.png" alt="">
+         <div class='max-w-[710px] md:pl-4 py-8'>
+            <div class="font-poppins font-light text-medium text-[16px] lg:text-[18px] py-2">NICE TO MEET YOU</div>
+            <div class="font-poppins font-extralight text-medium text-[16px] lg:text-[18px] py-2">My name is Elisa
+               Casto. I am
+               a web designer, who graduated in 2018 in Web Design at the Bau University, in Barcelona. I am very
+               curious and eager to learn as much as I can.Learning from mistakes and moving forward to improve
+               myself.
+               People consider me a very brave girl. Being flexible in changes and yes, I love being adventurous! My
+               objective is to reach my dreams, as I like to fight for what I really want. Thanks to my Erasmus
+               experience in Madrid I was able to grow as a person and professionally.I have lived one year in
+               Barcelona, ​​where I studied a master's degree in web design. Where I was able to enrich my knowledge
+               in
+               subjects such as HTML, CSS, JavaScript, User experience and User interface.</div>
          </div>
       </div>
-   </div>
-   <div class="introScroll">
-      <a class="introScrollLink" href="#container-projects"></a>
-   </div>
-
-   <div class="container-projects">
-      <h3 class="titulo_center">Last projects</h3>
-      <div class="container-project">
-         <div class="caja-proyecto row">
-            <img class="img-proyecto" src="img/homeforswap.jpg" alt="project's photo">
-            <div class="caja-ficha">
-               <h1 class="subtitle">Home for Swap</h1>
-               <p class="plight role">UI/UX</p>
-               <a href="./proyect2.html">
-                  <div class="text-boton">View case</div>
-               </a>
+      <div class='w-full flex justify-end position: absolute'>
+         <img class="w-2/3 lg:w-1/3" src="src/image/circle_2.svg" alt="">
+      </div>
+      <div class="z-10 px-4 md:px-20 2xl:px-56 py-8 md:py-32 justify-evenly">
+         <div>
+            <div class=" z-10 font-poppins font-extralight text-orange text-[18px] md:text-[32px] ">SKILL</div>
+            <div class="z-10 font-poppins font-extralight text-medium text-[24px] md:text-[48px] py-2">DESIGN RESEARCH
+               <br>
+               USER
+               INTERFACE <br>DESIGN SYSTEM <br>RESPONSIVE DESIGN <br>AGILE METHODOLOGIES <br>HTML <br>CSS/SCSS
+               <br>GIT
+            </div>
+         </div>
+         <div class="z-10 flex w-full lg:justify-end">
+            <div class="z-10 md:flex-col pt-10">
+               <div class="z-10 font-poppins font-extralight text-orange text-[18px] md:text-[32px] ">SOFTWARE</div>
+               <div class="z-10 font-poppins font-extralight text-medium text-[24px] md:text-[48px] py-2">FIGMA <br>
+                  SKETCH
+                  <br>ADOBE CREATIVE SUITE<br>JIRA
+               </div>
             </div>
          </div>
       </div>
-      <div class="container-project">
-         <div class="caja-proyecto">
-            <img class="img-proyecto" src="img/fotoproyecto1.jpg" alt="first project's photo">
-            <div class="caja-ficha">
-               <h1 class="subtitle">Madrid 360°</h1>
-               <p class="plight role">UI/UX - Front end</p>
-               <a href="./proyect1.html">
-                  <div class="text-boton">View case</div>
-               </a>
-            </div>
-
-         </div>
-      </div>
-      <div class="container-project">
-         <div class="caja-proyecto row">
-            <img class="img-proyecto right" src="img/sonardespierto.jpg" alt="project's photo">
-            <div class="caja-ficha">
-               <h1 class="subtitle">Soñar Despierto</h1>
-               <p class="plight role">UI/UX - Front-end</p>
-               <a href="proyect5.html">
-                  <div class="text-boton">View case</div>
-               </a>
-            </div>
-
-         </div>
-      </div>
-
    </div>
-   <footer class="caja-footer">
-      <div class="footer-container">
-         <div class="texto-footer">
-            <h3 class="latoh3_white">To collaborate with me use the links below</h3>
+
+
+
+   <div class="bg-purple w-full md:w-full mx-0 py-6 md:py-6">
+
+      <div x-data="{}" x-init="$nextTick(() => {
+                 let ul = $refs.logos;
+                 ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                 ul.nextSibling.setAttribute('aria-hidden', 'true');
+             })" class="w-full inline-flex flex-nowrap overflow-hidden">
+         <ul
+            class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll">
+            <li>
+               <img class="w-6 md:w-8" src="src/image/flash_small.svg" alt="">
+            </li>
+            <li>
+               <div
+                  class='font-poppins font-extralight text-[16px] md:text-[24px] lg:text-[32px] text-black md:items-baseline'>
+                  LET'S WORK TOGHETER</div>
+            </li>
+         </ul>
+         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+            aria-hidden="true">
+            <li>
+               <img class="w-6 md:w-8 " src="src/image/flash_small.svg" alt="">
+            </li>
+            <li>
+               <div
+                  class='font-poppins font-extralight text-[16px] md:text-[24px] lg:text-[32px] text-black md:items-baseline'>
+                  LET'S WORK TOGHETER</div>
+            </li>
+         </ul>
+         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+            aria-hidden="true">
+            <li>
+               <img class="w-6 md:w-8" src="src/image/flash_small.svg" alt="">
+            </li>
+            <li>
+               <div
+                  class='font-poppins font-extralight text-[16px] md:text-[24px] lg:text-[32px] text-black md:items-baseline'>
+                  LET'S WORK TOGHETER</div>
+            </li>
+         </ul>
+      </div>
+   </div>
+
+
+
+
+   <footer class="pt-0 md:pt-20 pb-16 md:pb-32 lg:pt-36">
+      <div class="z-10 px-4 md:px-20 2xl:px-56 pt-20 md:pt-32 align-bottom">
+         <div class="z-10 pb-8 font-poppins font-extralight text-grey_dark_dark text-[18px] md:text-[24px]">get in touch
          </div>
-         <div class="redes-sociales">
-            <a href="https://www.instagram.com/ui_ux_elisa"><img class="instagram" src="img/insta.png"
-                  alt="instagram's icon"></a>
-            <a href="https://www.linkedin.com/in/elisa-casto-90769814a/"><img class="linkedin" src="img/linkedin.png"
-                  alt="linkedin's icon"></a>
-            <a href="#"><img class="gmail" src="img/gmail.png" alt="gmail's icon"></a>
+         <div class="z-10 flex">
+            <div class='z-10 flex pt-30 items-center'>
+               <a href='https://www.linkedin.com/in/elisa-casto-uiuxdesigner/'
+                  class='z-10 w-auto h-auto pr-3 font-poppins font-extralight text-[24px] md:text-[64px] lg:text-[100px] text-grey_dark_dark'>LINKEDIN</a>
+               <img class='z-10 w-6 h-6 md:w-16 md:h-16' src="src/image/arrow.svg" alt="">
+            </div>
+            <div class='flex px-20 pt-30 items-center'>
+               <a href='https://www.linkedin.com/in/elisa-casto-uiuxdesigner/'
+                  class='z-10 w-auto h-auto px-3 font-poppins font-extralight text-[24px] md:text-[64px] lg:text-[100px] text-grey_dark_dark'>GMAIL</a>
+               <img class='z-10 w-6 md:w-16 md:h-16' src="src/image/arrow.svg" alt="">
+            </div>
          </div>
       </div>
    </footer>
-   <div class="copyright">
-      <div>Elisa Casto - UI UX Designer</div>
-   </div>
+
 </body>
 
 </html>
