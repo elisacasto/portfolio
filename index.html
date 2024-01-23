@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" className="scroll-smooth">
 
 <head>
    <meta charset="UTF-8">
@@ -8,38 +8,40 @@
    <title> Elisa Casto UX/UI </title>
    <script src="https://cdn.tailwindcss.com"></script>
    <link href="src/output.css" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
 </head>
 
 <body class="bg-champagne h-auto min-w-full">
    <header>
-      <nav class="flex justify-between items-center px-6 py-6 md:px-20 2xl:px-56 md:py-11">
+      <nav class="flex justify-between items-center px-6 py-6 md:px-10 2xl:px-56 md:py-11">
          <a href='index.html'><img src="src/image/logo.svg" alt=""></a>
-         <div class="flex w-full justify-end">
-            <div class="text-grey_dark_dark font-poppins text-[14px] pr-6 md:pr-14 md:text-[21px]">
+         <div class="flex w-full justify-end ">
+            <a href="#project" data-te-smooth-scroll-init
+               class="text-grey_dark_dark hover:text-orange font-poppins text-[14px] pr-6 md:pr-14 md:text-[21px]">
                PROJECT
-            </div>
-            <div class="text-grey_dark_dark font-poppins text-[14px] pr-6 md:pr-14 md:text-[21px]">
-               ABOUT ME
-            </div>
-            <div class="text-grey_dark_dark font-poppins text-[14px] md:text-[21px]">
-               CONTACT
-            </div>
+               <a href="#aboutme" data-te-smooth-scroll-init
+                  class="text-grey_dark_dark hover:text-orange font-poppins text-[14px] pr-6 md:pr-14 md:text-[21px]">
+                  ABOUT ME
+               </a>
+               <a href="#contact" data-te-smooth-scroll-init
+                  class="text-grey_dark_dark  hover:text-orange font-poppins text-[14px] md:text-[21px]">
+                  CONTACT
+               </a>
          </div>
       </nav>
    </header>
 
    <div class="flex flex-col pt-16 pb-20 w-full justify-center">
       <div class="z-10 flex flex-wrap font-poppins font-semibold
-          text-[32px] md:text-[64px] lg:text-[80px] px-4 md:px-20 2xl:px-56 text-grey_dark_dark w-full max-w-[1440px]">
+          text-[32px] md:text-[64px] lg:text-[80px] px-4 md:px-10 2xl:px-56 text-grey_dark_dark w-full max-w-[1440px]">
          Hi, I'm Elisa
       </div>
       <div class='z-10 h-[1px] bg-white'></div>
       <div
-         class='z-10 font-poppins font-semibold text-[32px] md:text-[64px] lg:text-[80px] px-4 md:px-20 2xl:px-56 py-4 md:py-4 text-grey_dark_dark'>
+         class='z-10 font-poppins font-semibold text-[32px] md:text-[64px] lg:text-[80px] px-4 md:px-10 2xl:px-56 py-4 md:py-4 text-grey_dark_dark'>
          a UX/UI designer </div>
       <div class='z-10 h-[1px]  bg-white'></div>
-      <div class='z-10 px-4 py-4 md:py-10 md:px-20 2xl:px-56 flex items-center'>
+      <div class='z-10 px-4 py-4 md:py-10 md:px-10 2xl:px-56 flex items-center'>
          <div
             class='font-poppins font-semibold text-[32px] md:text-[64px] lg:text-[80px] w-auto h-auto text-grey_dark_dark'>
             with
@@ -49,7 +51,7 @@
       <div class="w-fill h-fill flex justify-start position: absolute">
          <img class="w-2/2" src="src/image/circle.svg" alt="">
       </div>
-      <div class="flex pt-10 md:pt-16 px-4 md:px-20 2xl:px-56">
+      <div class="flex pt-24 md:pt-16 px-4 md:px-10 2xl:px-56">
          <div class='flex  items-center'>
             <a href='https://www.linkedin.com/in/elisa-casto-uiuxdesigner/'
                class='z-10 w-auto pr-3 font-poppins font-light text-[18px] md:text-[24px] hover:text-orange text-grey_dark_dark'>LINKEDIN</a>
@@ -64,7 +66,7 @@
    </div>
 
 
-   <div class=" w-full md:w-full mx-0 pb-6 md:pb-16 py-14 md:py-28">
+   <div id="project" class=" w-full md:w-full mx-0 pb-6 md:pb-16 py-14 md:py-28">
       <div class='h-[1px] bg-white'></div>
       <div x-data="{}" x-init="$nextTick(() => {
            let ul = $refs.logos;
@@ -123,7 +125,7 @@
    <div class='w-fill h-fill position: absolute'>
       <img class="w-2/3" src="src/image/circle_acciona.svg" alt="">
    </div>
-   <div class="w-full h-full px-4 py-10 md:py-20 md:px-20 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
+   <div class="w-full h-full px-4 py-10 md:py-20 md:px-10 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
       <img class="z-10 w-[327px] lg:w-[450px] md:pr-4" src="src/image/acciona.svg" alt="">
       <div class='z-10 max-w-[700px] md:pl-4 py-8'>
          <div class="flex justify-between w-full pb-6">
@@ -155,7 +157,7 @@
       <img class="w-2/3" src="src/image/circle_metro.svg" alt="">
    </div>
    <div
-      class="z-10 w-full h-full px-4 py-10 md:py-20 md:px-20 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
+      class="z-10 w-full h-full px-4 py-10 md:py-20 md:px-10 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
       <img class="z-10 w-[327px] lg:w-[450px] md:pr-4" src="src/image/metro.svg" alt="">
       <div class='z-10 max-w-[700px] md:pl-4 py-8'>
          <div class="flex justify-between w-full pb-6">
@@ -188,7 +190,7 @@
       <img class="w-2/3" src="src/image/circle_madrid.svg" alt="">
    </div>
    <div
-      class="z-10 w-full h-full px-4 py-10 md:py-32 md:px-20 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
+      class="z-10 w-full h-full px-4 py-10 md:py-32 md:px-10 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
       <img class="z-10 w-[327px] lg:w-[450px] md:pr-4" src="src/image/madrid.svg" alt="">
       <div class='z-10 max-w-[700px] md:pl-4 py-8'>
          <div class="flex justify-between w-full pb-6">
@@ -222,7 +224,7 @@
 
 
 
-      <div class="w-full md:w-full mx-0 pb-6 md:pb-16 py-14 md:py-10">
+      <div id="aboutme" class="w-full md:w-full mx-0 pb-6 md:pb-16 py-14 md:py-10">
          <div class='h-[1px] bg-white'></div>
          <div x-data="{}" x-init="$nextTick(() => {
               let ul = $refs.logos;
@@ -291,28 +293,29 @@
 
 
 
-      <div class="w-full h-full px-4 py-8 md:px-20 2xl:px-56 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
+      <div class="w-full h-full px-4 py-8 md:px-10 2xl:px-56 flex-wrap flex lg:flex-nowrap items-center justify-evenly">
          <img class="z-10 w-[163px] md:w-[240px] lg:w-[310px] md:pr-4" src="src/image/photo.png" alt="">
          <div class='max-w-[710px] md:pl-4 py-8'>
-            <div class="font-poppins font-light text-medium text-[16px] lg:text-[18px] py-2">NICE TO MEET YOU</div>
-            <div class="leading-ting font-poppins font-light text-white text-[14px] lg:text-[16px] py-2">My name is
-               Elisa
-               Casto. I am
-               a web designer, who graduated in 2018 in Web Design at the Bau University, in Barcelona. I am very
-               curious and eager to learn as much as I can.Learning from mistakes and moving forward to improve
-               myself.
-               People consider me a very brave girl. Being flexible in changes and yes, I love being adventurous! My
-               objective is to reach my dreams, as I like to fight for what I really want. Thanks to my Erasmus
-               experience in Madrid I was able to grow as a person and professionally.I have lived one year in
-               Barcelona, ​​where I studied a master's degree in web design. Where I was able to enrich my knowledge
-               in
-               subjects such as HTML, CSS, JavaScript, User experience and User interface.</div>
+            <div class="font-poppins font-light text-medium text-[18px] lg:text-[32px] py-2">NICE TO MEET YOU</div>
+            <div class="leading-ting font-poppins font-extralight text-white text-[14px] lg:text-[16px] py-2">My name is
+               Elisa Casto. I am a web designer with <strong>more than 6 years of experience in the sector</strong>. I
+               design digital
+               products that make the user's life easier. I follow a user-centered design process: empathizing and
+               researching to
+               improve their experience in each of their needs. <br><br> I graduated in 2018 in Web Design at Bau
+               University, in Barcelona,
+               where I was able to enrich my knowledge in subjects such as <strong>UX and UI Design</strong>. I'm very
+               curious and I'm
+               eager to learn as
+               much as I can. Learn from mistakes and move forward to improve. Being flexible in changes and yes, I love
+               being
+               adventurous! My goal is to achieve my dreams, as I like to fight for what I really want.</div>
          </div>
       </div>
       <div class='w-full flex justify-end position: absolute'>
          <img class="w-2/3 lg:w-1/3" src="src/image/circle_2.svg" alt="">
       </div>
-      <div class="z-30 px-4 md:px-20 2xl:px-56 py-8 md:py-32 justify-evenly">
+      <div class="z-30 px-4 md:px-10 2xl:px-56 py-8 md:py-32 justify-evenly">
          <div class="flex flex-col">
             <div class="z-20 font-poppins font-extralight text-orange text-[18px] md:text-[32px] ">SKILL</div>
             <div class="z-20 font-poppins font-extralight text-medium text-[24px] md:text-[48px] py-2">DESIGN
@@ -339,7 +342,7 @@
 
 
 
-   <div class="bg-purple w-full md:w-full mx-0 py-6 md:py-6">
+   <div id="contact" class="bg-purple w-full md:w-full mx-0 py-6 md:py-6">
 
       <div x-data="{}" x-init="$nextTick(() => {
                  let ul = $refs.logos;
@@ -386,7 +389,7 @@
 
 
    <footer class="pt-0 md:pt-20 pb-16 md:pb-32 lg:pt-36">
-      <div class="z-10 px-4 md:px-20 2xl:px-56 pt-20 md:pt-32 align-bottom">
+      <div class="z-10 px-4 md:px-10 2xl:px-56 pt-20 md:pt-32 align-bottom">
          <div class="z-10 pb-8 font-poppins font-light text-grey_dark_dark text-[18px] md:text-[24px]">get in touch
          </div>
          <div class="z-10 flex">
