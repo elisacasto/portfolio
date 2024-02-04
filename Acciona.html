@@ -514,13 +514,13 @@
    </div>
 
 
-   <div class="bg-purple w-full md:w-full mx-0 py-6 md:py-6">
+   <div id="contact" class="bg-purple w-full md:w-full mx-0 py-6 md:py-6">
 
       <div x-data="{}" x-init="$nextTick(() => {
-                 let ul = $refs.logos;
-                 ul.insertAdjacentHTML('afterend', ul.outerHTML);
-                 ul.nextSibling.setAttribute('aria-hidden', 'true');
-             })" class="w-full inline-flex flex-nowrap overflow-hidden">
+                    let ul = $refs.logos;
+                    ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                    ul.nextSibling.setAttribute('aria-hidden', 'true');
+                })" class="w-full inline-flex flex-nowrap overflow-hidden">
          <ul
             class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll">
             <li>
@@ -536,6 +536,28 @@
             aria-hidden="true">
             <li>
                <img class="w-6 md:w-8 " src="src/image/flash_small.svg" alt="">
+            </li>
+            <li>
+               <div
+                  class='w-max font-poppins font-light text-[16px] md:text-[24px] lg:text-[32px] text-black md:items-baseline'>
+                  LET'S WORK TOGHETER</div>
+            </li>
+         </ul>
+         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+            aria-hidden="true">
+            <li>
+               <img class="w-6 md:w-8" src="src/image/flash_small.svg" alt="">
+            </li>
+            <li>
+               <div
+                  class='w-max font-poppins font-light text-[16px] md:text-[24px] lg:text-[32px] text-black md:items-baseline'>
+                  LET'S WORK TOGHETER</div>
+            </li>
+         </ul>
+         <ul class="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none animate-infinite-scroll"
+            aria-hidden="true">
+            <li>
+               <img class="w-6 md:w-8" src="src/image/flash_small.svg" alt="">
             </li>
             <li>
                <div
